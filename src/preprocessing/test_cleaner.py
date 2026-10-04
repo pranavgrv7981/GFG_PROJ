@@ -1,6 +1,8 @@
 from src.preprocessing.cleaner import clean_text
 
-text = "THIS PRODUCT IS TERRIBLE!"
+
+text = "OMG!!! @brand Check https://example.com #WorstService"
+
 
 cleaned = clean_text(text)
 
