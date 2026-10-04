@@ -1,0 +1,801 @@
+id,text,platform,brand,sentiment,complaint_category
+88416d54-26f5-4bea-ad69-7e524b5a77a4,Waiting for my scheduled delivery from Amazon.,facebook,Amazon,neutral,
+d18c69df-b9c7-43a0-8c03-aa1b21645b86,fix your buggy and glitchy app @phonepe! buttons don't respond.,twitter,PhonePe,negative,app_bugs
+e9f9d271-f4f0-442c-af15-ec77be26f9de,"Very good experience with PhonePe. Easy to use, fast refunds when requested.",twitter,PhonePe,positive,
+d0dc1dcd-2e09-4d23-9ae2-1f1499217c24,@Flipkart please check your direct messages regarding my ticket.,reddit,Flipkart,neutral,
+c44aea61-9d06-465c-bfaf-fd5299298015,"The automated bot on Flipkart is useless, can never speak to a human.",reddit,Flipkart,negative,customer_service
+f1deac53-314d-4d77-9450-2d3e0d83dcf2,Highly recommend Amazon for everyone! Great delivery and lovely packaging. #awesome,reddit,Amazon,positive,
+4c8ce46e-5b46-494c-8701-6cb103e935ec,"Very good experience with Amazon. Easy to use, fast refunds when requested.",reddit,Amazon,positive,
+306b2766-c853-4f85-8ef8-fe192e2080a6,Loved the discount and lightning fast shipping on Swiggy today! 🎉,facebook,Swiggy,positive,
+7503a18b-28fb-49f8-8338-5350686adfa3,The item I received from Swiggy is broken and counterfeit.,twitter,Swiggy,negative,product_quality
+47a4614b-ff35-462e-8008-513007b864bf,Been stuck on hold for 45 mins with Flipkart phone support.,facebook,Flipkart,negative,customer_service
+fceaee2f-c091-45da-8876-41a8adc828cb,Critical bug in Amazon app: cart empties itself on checkout.,instagram,Amazon,negative,app_bugs
+7ace04a6-a327-4b44-9364-c9b655caca2f,Super impressed with @Paytm! The driver was polite and order arrived early.,instagram,Paytm,positive,
+fd7d3ea3-c179-4970-99e8-bb06504f39f2,Everything arrived in perfect condition. Thank you @Amazon!,facebook,Amazon,positive,
+fce18fe3-1db2-4dbe-8b3f-e6c8980cedbb,Received a spoiled item from Paytm. Horrible quality check.,facebook,Paytm,negative,product_quality
+ca1ffb61-e03e-4bb0-bfca-86fed81953dc,I think Flipkart changed their user interface today.,facebook,Flipkart,neutral,
+a983f0cd-1d4f-4a3b-b797-ed8bc276b721,Loved the discount and lightning fast shipping on PhonePe today! 🎉,reddit,PhonePe,positive,
+f6ee4a80-5883-4bf0-818a-878eb2335ec0,waited 4 hours for my food delivery from @phonepe. disgraceful delay.,reddit,PhonePe,negative,delivery_issues
+5ea73665-b4d9-4159-bf2d-3f5d5e742257,@paytm please check your direct messages regarding my ticket.,reddit,Paytm,neutral,
+57d56bb1-99ed-450d-a821-c52389a49e09,The PhonePe app keeps crashing constantly when I try to pay.,facebook,PhonePe,negative,app_bugs
+553bd8b5-294c-49d0-b6ba-7b2354cea866,Delivery driver from Swiggy was extremely rude and unhelpful.,facebook,Swiggy,negative,delivery_issues
+39d96968-3519-4af1-8c67-cfddb96bca9b,"Can't log into my Paytm account, getting internal error 500.",facebook,Paytm,negative,app_bugs
+1efbc21f-43db-433f-a896-3ffb958b16aa,I think Paytm changed their user interface today.,instagram,Paytm,neutral,
+21ce9060-b47d-4acc-adc4-b2c600436676,PhonePe website is completely broken on checkout page.,twitter,PhonePe,negative,app_bugs
+ef055ad1-de63-4620-85b8-a0af57c4fb31,Swiggy is the absolute best! Delivery was super quick. https://example.com/xyz,instagram,Swiggy,positive,
+faa501b8-cc8b-45de-9dfa-196ee4b2e3bd,Just had an amazing experience with @Paytm. Thanks for the great service! #happy,reddit,Paytm,positive,
+a3d42601-2b97-4262-bf56-b2e5b866d35a,"Very good experience with Paytm. Easy to use, fast refunds when requested.",reddit,Paytm,positive,
+04b2e24c-b4d4-4b4c-8542-b462a17dc5ed,Just comparing prices between Flipkart and other apps.,instagram,Flipkart,neutral,
+eccab5c6-b241-47cf-97d2-595b5149274c,Just downloaded the latest Zomato app update.,reddit,Zomato,neutral,
+32e5e905-f6c9-454d-b813-4873bf80068a,Loved the discount and lightning fast shipping on PhonePe today! 🎉,instagram,PhonePe,positive,
+fffea6f1-02d1-4684-a9fb-f7d7c32579c1,notice: flipkart scheduled maintenance tonight at midnight.,twitter,Flipkart,neutral,
+ab9ffd11-ffbb-4243-863f-31744695d8c7,Waiting for my scheduled delivery from Swiggy.,reddit,Swiggy,neutral,
+d8fd08f8-e0d3-4655-a5a4-d82d48792202,"Food from PhonePe was cold, stale, and smelled awful.",reddit,PhonePe,negative,product_quality
+a27b41af-7e9c-4f9b-b845-a2d292eb64ee,"Great delivery by @Zomato, loved it! Super fast and reliable. #satisfied",facebook,Zomato,positive,
+ea3b4dc0-4053-4f15-b7b4-8dbdc1cf6ec7,Paytm is the absolute best! Delivery was super quick. https://example.com/xyz,twitter,Paytm,positive,
+28c91fbf-4aa4-4895-a831-90f0ab21c12b,The packaging from @Flipkart was completely crushed and leaking.,instagram,Flipkart,negative,product_quality
+34cdba9a-1b04-425c-8677-760eda8f0cbf,Kudos to the Flipkart team for always delivering top quality products.,twitter,Flipkart,positive,
+7c887d07-7b82-4cfe-b430-6a36d9a4e19d,Just had an amazing experience with @Paytm. Thanks for the great service! #happy,twitter,Paytm,positive,
+5c023437-5644-451d-8dd2-d025ada37ab3,Thank you Zomato for the quick resolution and courteous team 😊,reddit,Zomato,positive,
+c1b7d49b-9af8-4230-a437-699ad37b8547,Using Amazon makes my daily routine so much easier and pleasant.,reddit,Amazon,positive,
+a53b62bf-4f8b-4258-b113-fd55a9d01ed9,"Great app, smooth UI and seamless checkout. Keep it up Paytm.",reddit,Paytm,positive,
+1b88aaf8-1de5-4015-a904-330dead6854a,super impressed with @paytm! the driver was polite and order arrived early.,twitter,Paytm,positive,
+b1547e1d-15ee-4d01-b822-17b0208a2b97,Does anyone know how to change payment method on PhonePe?,instagram,PhonePe,neutral,
+9d20b620-1bd6-49af-94d6-2479b14eefc6,"Best platform ever, @PhonePe you guys rock! Five stars! ✨",twitter,PhonePe,positive,
+0f5f2826-cb77-4c94-90e5-fd8893c31319,@phonepe please check your direct messages regarding my ticket.,twitter,PhonePe,neutral,
+67599ffe-0c5b-4d30-8f54-134389aac786,Waiting for my scheduled delivery from Swiggy.,facebook,Swiggy,neutral,
+cb546e4c-092f-4271-a47d-fc95c84d4be0,Kudos to the Flipkart team for always delivering top quality products.,facebook,Flipkart,positive,
+18055d54-777a-4621-b4c4-4c2b08e983a4,Just had an amazing experience with @Zomato. Thanks for the great service! #happy,twitter,Zomato,positive,
+45c7902e-bcb7-4b18-92b4-d6d8e76972ff,"Best platform ever, @Swiggy you guys rock! Five stars! ✨",twitter,Swiggy,positive,
+3851843d-4fd4-43b4-98e4-9d31daf05373,Critical bug in Paytm app: cart empties itself on checkout.,facebook,Paytm,negative,app_bugs
+b13bdaa9-66e5-415e-ae1d-cea0aecf5f28,Notice: Paytm scheduled maintenance tonight at midnight.,twitter,Paytm,neutral,
+0018d54f-c37e-4377-bb47-37fce4890a45,Using PhonePe makes my daily routine so much easier and pleasant.,instagram,PhonePe,positive,
+faa7f9a8-306a-431b-8eed-df2056d97059,Delicious food and timely delivery by Paytm. Will order again!,facebook,Paytm,positive,
+aff0b4a1-e161-49ab-985b-f4ac0cee0506,amazon customer support is totally unresponsive and useless.,reddit,Amazon,negative,customer_service
+a4bf0e91-30a5-4010-98d8-0db5b8f57e59,Just comparing prices between Swiggy and other apps.,instagram,Swiggy,neutral,
+d5b9338f-d5df-42f5-b63b-b1b9a93ed7a5,Notice: Amazon scheduled maintenance tonight at midnight.,twitter,Amazon,neutral,
+fa3d4b13-a4b8-4a23-a07e-e9853f2a4c55,"Great delivery by @Swiggy, loved it! Super fast and reliable. #satisfied",instagram,Swiggy,positive,
+f35cd9a8-93f1-458f-a2a1-ea09b55007c5,Received a spoiled item from Amazon. Horrible quality check.,facebook,Amazon,negative,product_quality
+2373e016-48db-4706-af41-ff93626f1443,Terrible quality from Zomato. Defective product right out of the box.,instagram,Zomato,negative,product_quality
+5516706b-d6dd-4a9e-9a07-cb1c6884ba4e,Where is my money @Amazon? Refund not processed after return #scam,instagram,Amazon,negative,refund_problems
+a3db72ca-fa5a-4014-a3b1-1c2f148771af,Been stuck on hold for 45 mins with Paytm phone support.,instagram,Paytm,negative,customer_service
+e9919860-8f3e-42a4-82aa-51fbabcdf942,"Food from Zomato was cold, stale, and smelled awful.",instagram,Zomato,negative,product_quality
+49e6528c-3df4-4a7b-8c01-5fd611814f64,Flipkart arbitrarily rejected my valid return and refund claim.,twitter,Flipkart,negative,refund_problems
+4ecafb8e-c19b-4fd3-820b-9359015d1686,Delicious food and timely delivery by Swiggy. Will order again!,facebook,Swiggy,positive,
+0338de21-03fd-4d82-8cfe-596140523496,Notice: Amazon scheduled maintenance tonight at midnight.,twitter,Amazon,neutral,
+074f10f2-0c9e-4fa2-8640-d9c8b38f4164,"Late delivery again, Swiggy is so inconsistent and delayed.",twitter,Swiggy,negative,delivery_issues
+97d40351-2ad7-4c36-b158-ee7543b7c893,Everything arrived in perfect condition. Thank you @PhonePe!,twitter,PhonePe,positive,
+4d0ff9ea-67c9-48d8-b523-95607e5bb281,Delicious food and timely delivery by Zomato. Will order again!,twitter,Zomato,positive,
+449adc8e-b0a4-4d91-9140-5f1085ef7fd1,why is it impossible to get help from a representative at paytm?,instagram,Paytm,negative,customer_service
+98a8b01f-b0e2-442f-bc85-8ed07cfeb818,Five stars for Swiggy! Loved the fast response and on-time order.,twitter,Swiggy,positive,
+7c172eb3-bac2-45e5-b160-c77031c0203b,"Very good experience with Paytm. Easy to use, fast refunds when requested.",facebook,Paytm,positive,
+a85f1389-1f3e-43d1-bc7a-53334176488a,App freezes every time I open the search tab on Paytm.,instagram,Paytm,negative,app_bugs
+6eda1ea6-bbf5-4b15-8d45-4ff43d759bc4,"Great delivery by @Swiggy, loved it! Super fast and reliable. #satisfied",instagram,Swiggy,positive,
+916a72df-4176-47d2-b44e-8bb7c535ce50,Thank you Zomato for the quick resolution and courteous team 😊,reddit,Zomato,positive,
+56bbd5ce-1b68-4ae2-acf7-a51bcf565139,Still waiting for my pending refund from Paytm after 3 weeks.,instagram,Paytm,negative,refund_problems
+b5d30a2a-8c80-4f85-b91b-83feff336794,How long does standard delivery take on Amazon?,instagram,Amazon,neutral,
+607d177c-7ef6-4076-b83f-ef0b64ffa42a,Seamless payment experience on Amazon. Really happy with the new update.,instagram,Amazon,positive,
+b3415d5b-d7bf-48c7-904b-d303e3c70fdf,Just comparing prices between Paytm and other apps.,instagram,Paytm,neutral,
+78cc2cba-8eba-4195-9353-472ea2091891,Highly recommend Paytm for everyone! Great delivery and lovely packaging. #awesome,twitter,Paytm,positive,
+3c9149d5-826c-42d3-a21d-9e06271a25c0,"Late delivery again, Paytm is so inconsistent and delayed.",reddit,Paytm,negative,delivery_issues
+af4798fe-3c7e-4879-9b13-f5af36b4eaa4,Has anyone tried the new premium subscription on Zomato?,facebook,Zomato,neutral,
+25aca31e-bac4-411b-afcc-876b7e4fe1b4,Fix your buggy and glitchy app @PhonePe! Buttons don't respond.,reddit,PhonePe,negative,app_bugs
+4673c9f1-2104-4157-b647-901030fadefd,Wondering if Swiggy delivers to rural postal codes.,instagram,Swiggy,neutral,
+5bb51f91-15f6-4cff-a1e3-db27fd32bdb4,What are good alternative platforms to Paytm?,instagram,Paytm,neutral,
+815473f8-8437-4cd7-8523-f628c75f0cee,"very good experience with swiggy. easy to use, fast refunds when requested.",facebook,Swiggy,positive,
+ee74cc44-3fad-486b-abcf-1013da87f520,Just had an amazing experience with @Flipkart. Thanks for the great service! #happy,instagram,Flipkart,positive,
+e98b8f81-d230-4485-888d-c6c79056d7cd,Wondering if Amazon delivers to rural postal codes.,instagram,Amazon,neutral,
+16bb42c8-8584-49c3-afd7-a58f4d4b3db8,Wondering if Paytm delivers to rural postal codes.,twitter,Paytm,neutral,
+e52847f2-d53b-4f29-a338-c14b098ae50a,Has anyone tried the new premium subscription on Swiggy?,facebook,Swiggy,neutral,
+4df741dc-214e-4bd4-abe0-9bbc684d0092,Hidden fees and unauthorized charges on PhonePe? Disgusting practice.,instagram,PhonePe,negative,billing_issues
+e66aa659-4ea2-4043-bd0b-ffe1102ab777,Absolutely fantastic service and prompt support from Paytm today.,reddit,Paytm,positive,
+edba0184-aef9-49ab-95c2-c8632740aa08,Overcharged by PhonePe on checkout and support refuses to adjust the bill.,twitter,PhonePe,negative,billing_issues
+3ed9b801-a9a0-48bd-b2b7-7c163b17349a,i think flipkart changed their user interface today.,reddit,Flipkart,neutral,
+48c46b6f-81b1-469d-bafa-39e397af3bf0,Everything arrived in perfect condition. Thank you @Swiggy!,facebook,Swiggy,positive,
+5999cec9-d0b3-4f3e-9970-b5eefb2c8d67,Does anyone know how to change payment method on Amazon?,reddit,Amazon,neutral,
+d1f35ebc-14a1-4475-9a08-49588b33f98e,Still waiting for my pending refund from Flipkart after 3 weeks.,twitter,Flipkart,negative,refund_problems
+ec29d454-22db-4fe8-92cb-81f99305b9ac,"Best platform ever, @Amazon you guys rock! Five stars! ✨",instagram,Amazon,positive,
+e5b93d31-9e43-4f8b-9bec-5b34fafbbbc1,Just comparing prices between Flipkart and other apps.,reddit,Flipkart,neutral,
+099940e0-a3e4-46fa-b92e-41d1d29083ae,Has anyone tried the new premium subscription on Paytm?,twitter,Paytm,neutral,
+c8208727-182b-47fe-b06d-cf51f059aea7,Loved the discount and lightning fast shipping on Amazon today! 🎉,facebook,Amazon,positive,
+f442dabf-0fac-4bd7-850a-efb03fe63135,Just had an amazing experience with @Paytm. Thanks for the great service! #happy,instagram,Paytm,positive,
+2f532c9b-d8e7-418e-b28f-8dae947fd6d4,Pleasantly surprised by how quickly Paytm handled my inquiry.,facebook,Paytm,positive,
+99b9c40f-337c-4603-b2f7-318b36556340,Saw an advertisement for Amazon on YouTube yesterday.,facebook,Amazon,neutral,
+e38b0b6e-acd5-4871-8611-6d349d4be7e6,Wondering if Swiggy delivers to rural postal codes.,twitter,Swiggy,neutral,
+4d5caad7-3edf-42ac-aaea-63197d6f23af,Just comparing prices between Swiggy and other apps.,reddit,Swiggy,neutral,
+5445d698-75de-417a-b915-6834e2e51a09,@Paytm please check your direct messages regarding my ticket.,facebook,Paytm,neutral,
+bc93afa5-e765-4363-be61-c0f15db829f0,Is Zomato servers down for anyone else right now?,facebook,Zomato,neutral,
+fe93beed-077a-48a9-be7d-1c8c466e4260,Kudos to the Zomato team for always delivering top quality products.,instagram,Zomato,positive,
+ebe3abc0-3f64-4400-95a4-09db1a2ffa05,Absolutely fantastic service and prompt support from Zomato today.,facebook,Zomato,positive,
+e23b09c6-9579-4484-8b26-afdaf2f2637d,"very good experience with swiggy. easy to use, fast refunds when requested.",facebook,Swiggy,positive,
+fe819f58-d814-49cc-af06-18581e89d252,Seamless payment experience on Paytm. Really happy with the new update.,reddit,Paytm,positive,
+15f715eb-7644-4d15-acf2-8eba86c27bd6,Can you pay with crypto or UPI credit on Paytm?,reddit,Paytm,neutral,
+b862ad22-7bf0-4b91-bf21-4dcfaeda7aed,Five stars for Paytm! Loved the fast response and on-time order.,instagram,Paytm,positive,
+f9661d54-9c1d-4f3f-89fc-44ae5f47b080,Just comparing prices between Swiggy and other apps.,reddit,Swiggy,neutral,
+8c88e326-53d3-4c82-b2d3-0c669d1e8a71,Waiting for my scheduled delivery from Swiggy.,facebook,Swiggy,neutral,
+95ee1368-fc5a-47e3-bae0-ce25d6ae0e54,Thank you PhonePe for the quick resolution and courteous team 😊,instagram,PhonePe,positive,
+e6648514-3545-47bb-9213-176b5e24da05,Waited 4 hours for my food delivery from @PhonePe. Disgraceful delay.,facebook,PhonePe,negative,delivery_issues
+57c32563-5f6f-4ba1-9d14-9d155087c467,using amazon makes my daily routine so much easier and pleasant.,instagram,Amazon,positive,
+3fb1fbff-d147-48eb-81ac-b152ee8aa133,Highly recommend Flipkart for everyone! Great delivery and lovely packaging. #awesome,reddit,Flipkart,positive,
+bbdbafd5-ffeb-47fb-8d8e-3403f1f4cc90,I think Zomato changed their user interface today.,facebook,Zomato,neutral,
+9007999a-6cb9-465d-bd76-95757cbb8c0e,why did my subscription for amazon auto-renew after i cancelled?,twitter,Amazon,negative,billing_issues
+14d915c3-18a0-4a03-8170-0c2d5b61f940,Just had an amazing experience with @Flipkart. Thanks for the great service! #happy,facebook,Flipkart,positive,
+5896fa67-0698-47cb-86f1-1fca78c687ec,Fix your buggy and glitchy app @PhonePe! Buttons don't respond.,instagram,PhonePe,negative,app_bugs
+30b302ca-cc9f-4736-a76f-a94df751fca4,app freezes every time i open the search tab on zomato.,facebook,Zomato,negative,app_bugs
+e9ebeb70-d900-469e-b2e9-492c3c32676d,Using Flipkart makes my daily routine so much easier and pleasant.,instagram,Flipkart,positive,
+736e88a5-8c77-4de1-abf1-f7dfba9a4308,Love using Amazon! Always reliable and fast. 💯,instagram,Amazon,positive,
+c0584745-aae5-41a4-8f9a-0c9b5a9d6879,What are good alternative platforms to Amazon?,instagram,Amazon,neutral,
+169648ae-44c8-40c4-981b-51a9a239f112,Notice: Paytm scheduled maintenance tonight at midnight.,instagram,Paytm,neutral,
+eba90e75-971d-46e3-a92a-1e300b707702,Just downloaded the latest Flipkart app update.,reddit,Flipkart,neutral,
+937b3c83-91f1-439f-84ca-499ea802d7b7,Never got my delivery from @Flipkart. Worst service ever.,twitter,Flipkart,negative,delivery_issues
+504fd707-7a4e-486a-8345-d5e02864473c,Tracking status says delivered but I received nothing from Swiggy.,reddit,Swiggy,negative,delivery_issues
+c1b48722-22e9-4e90-aa0d-a7bc9f0475c7,PhonePe charged my account twice for the exact same order.,reddit,PhonePe,negative,billing_issues
+e6a12c8e-f5c7-443b-9fad-e428b71b9eca,My order from PhonePe is 3 days late! 😡 #fail #terrible,facebook,PhonePe,negative,delivery_issues
+3a6dae0b-a699-4520-a7d3-bdb11457d89b,Where is my money @PhonePe? Refund not processed after return #scam,twitter,PhonePe,negative,refund_problems
+0aad5b8e-38de-475c-b520-bb878d0944b7,Using PhonePe makes my daily routine so much easier and pleasant.,reddit,PhonePe,positive,
+2b53146b-8f99-4b90-b10a-8feea55c325a,Can you pay with crypto or UPI credit on Zomato?,twitter,Zomato,neutral,
+9d1519dd-a718-4008-9724-3426ea1512af,Payment failed but the money was deducted from my bank by Flipkart.,facebook,Flipkart,negative,billing_issues
+507888a8-acc7-4842-a3ef-770c2d0de717,can you pay with crypto or upi credit on phonepe?,twitter,PhonePe,neutral,
+c5e6c18e-177d-429a-af5d-dbc0d9e25452,"Very good experience with Zomato. Easy to use, fast refunds when requested.",twitter,Zomato,positive,
+6b20330c-ddb3-496c-a54a-261cf9554c37,How long does standard delivery take on PhonePe?,reddit,PhonePe,neutral,
+e7cfb0b6-a44f-47ef-b2b2-28ad7f71f2d8,Kudos to the Flipkart team for always delivering top quality products.,facebook,Flipkart,positive,
+10eb4094-9583-4741-b04f-c3b9cbfae524,Absolutely fantastic service and prompt support from Paytm today.,instagram,Paytm,positive,
+078cc309-6421-4746-9c02-6c7d9a298389,Can you pay with crypto or UPI credit on Flipkart?,twitter,Flipkart,neutral,
+aa402f2a-b4ca-41c7-bcbc-787223d2f323,Delicious food and timely delivery by Paytm. Will order again!,facebook,Paytm,positive,
+c531a4ff-60a1-47c2-9819-b17ee127d708,Can you pay with crypto or UPI credit on Zomato?,instagram,Zomato,neutral,
+e778d283-49f7-4ed5-9566-6b16005e6b3f,Delivery driver from PhonePe was extremely rude and unhelpful.,instagram,PhonePe,negative,delivery_issues
+ab953c71-a79d-4797-a8f4-07964bb2cc0e,Love using PhonePe! Always reliable and fast. 💯,facebook,PhonePe,positive,
+00398afe-9642-4074-bcdf-2117cd46305f,Wondering if Paytm delivers to rural postal codes.,reddit,Paytm,neutral,
+bdc6374f-c069-4451-930f-d893f92b4b71,Kudos to the PhonePe team for always delivering top quality products.,reddit,PhonePe,positive,
+96194339-6cf9-45a8-adfe-a06afe0cee3c,"food from flipkart was cold, stale, and smelled awful.",reddit,Flipkart,negative,product_quality
+80eaa197-3371-431b-974f-6d1a2a8f77f5,"Returned the order 10 days ago, still no sign of refund from Zomato.",reddit,Zomato,negative,refund_problems
+7079d1ed-5e47-4ad8-9a44-b9a7280b1534,Highly recommend PhonePe for everyone! Great delivery and lovely packaging. #awesome,facebook,PhonePe,positive,
+a92c7260-b776-41e6-9ff7-e8efd6c14e42,Just comparing prices between Zomato and other apps.,twitter,Zomato,neutral,
+9f7f50b2-7532-4dcf-913c-93d0bb064dbb,"The automated bot on Amazon is useless, can never speak to a human.",reddit,Amazon,negative,customer_service
+793496b3-a3f6-42cc-a927-8ed2d026528f,Super impressed with @Swiggy! The driver was polite and order arrived early.,reddit,Swiggy,positive,
+729ec5d9-8ee2-4cf6-a946-08f74ec98892,@phonepe please check your direct messages regarding my ticket.,twitter,PhonePe,neutral,
+e451f478-b584-44fc-9e37-4a5695fe5416,Flipkart charged my account twice for the exact same order.,twitter,Flipkart,negative,billing_issues
+bf1044f0-4506-49de-b669-9c95035c08db,love using flipkart! always reliable and fast. 💯,facebook,Flipkart,positive,
+66222867-f08f-4355-bb1f-8c6db6c5736f,"Great app, smooth UI and seamless checkout. Keep it up Swiggy.",reddit,Swiggy,positive,
+4009cf27-ee28-4146-b1e8-7a06ef880616,The item I received from Flipkart is broken and counterfeit.,instagram,Flipkart,negative,product_quality
+fc207f16-6858-4626-a4ed-6c30bbd8294b,"Food from Zomato was cold, stale, and smelled awful.",instagram,Zomato,negative,product_quality
+057448de-456e-4e00-843c-6d66ed799d6f,I demand my money back Zomato! Fraudulent refusal to refund.,facebook,Zomato,negative,refund_problems
+e636efb9-f9d8-4029-a765-1b0297590b1a,"Great delivery by @PhonePe, loved it! Super fast and reliable. #satisfied",facebook,PhonePe,positive,
+223e859b-49b3-4721-aa4c-93eb94866591,Highly recommend Zomato for everyone! Great delivery and lovely packaging. #awesome,reddit,Zomato,positive,
+b26389cb-d9dd-4ea0-9ab2-6eeca015aae5,Does anyone know how to change payment method on Paytm?,facebook,Paytm,neutral,
+7f2a749d-1521-4907-a74d-3a1b3fdb0639,Pleasantly surprised by how quickly PhonePe handled my inquiry.,twitter,PhonePe,positive,
+e0fb8a22-1c3a-45bc-b33f-4911f96a33cd,Received a spoiled item from Flipkart. Horrible quality check.,facebook,Flipkart,negative,product_quality
+30c492c3-cff8-4e66-8fac-6d9b8b6b211f,Still waiting for my pending refund from Paytm after 3 weeks.,instagram,Paytm,negative,refund_problems
+22a706ab-7224-4d20-a57b-29eeb39dda81,Loved the discount and lightning fast shipping on Zomato today! 🎉,twitter,Zomato,positive,
+823d0237-7d40-4e58-9295-791ef54fd968,Terrible quality from Swiggy. Defective product right out of the box.,reddit,Swiggy,negative,product_quality
+d5956fbc-5cd8-4047-bc17-facb71d67e1b,Not what I expected from PhonePe. Looks fake and cheap.,facebook,PhonePe,negative,product_quality
+134d74bd-9ec1-4d61-a86f-f977164951fa,Tracking status says delivered but I received nothing from Swiggy.,facebook,Swiggy,negative,delivery_issues
+0d870719-bad6-4f78-9398-90c5b10a3d50,paytm website is completely broken on checkout page.,reddit,Paytm,negative,app_bugs
+a8566cc5-fb05-4ff1-93b7-cde6dd92ac29,Outstanding customer support from Amazon. Solved my issue within 5 minutes!,reddit,Amazon,positive,
+1b285a58-53e4-4263-97fd-29a5432b5666,Just downloaded the latest Paytm app update.,facebook,Paytm,neutral,
+ecaea328-0183-42ae-ab1a-130d167c28a6,Notice: PhonePe scheduled maintenance tonight at midnight.,facebook,PhonePe,neutral,
+fb8a10b1-96a4-4963-9088-299c0243839c,How long does standard delivery take on Zomato?,facebook,Zomato,neutral,
+19aadc1c-553b-49a8-8847-a80113b1f647,My order from Swiggy is 3 days late! 😡 #fail #terrible,reddit,Swiggy,negative,delivery_issues
+e9dc5f7a-4e74-478e-b2a2-975b34912b19,Loved the discount and lightning fast shipping on Swiggy today! 🎉,reddit,Swiggy,positive,
+718dfd00-1bad-44f9-9ba7-e4360c334755,@Amazon please check your direct messages regarding my ticket.,reddit,Amazon,neutral,
+34a12388-7dbc-42f3-99f4-57ecf543873d,Kudos to the Swiggy team for always delivering top quality products.,instagram,Swiggy,positive,
+42fccd3d-f5a5-4705-81fb-1ffbb27719de,"Very good experience with Paytm. Easy to use, fast refunds when requested.",facebook,Paytm,positive,
+bcf259ef-7b37-4740-aef9-18d563e93945,Highly recommend Swiggy for everyone! Great delivery and lovely packaging. #awesome,instagram,Swiggy,positive,
+8349bde1-4a1f-4cce-bbca-079228c94e68,Flipkart is the absolute best! Delivery was super quick. https://example.com/xyz,twitter,Flipkart,positive,
+15fbd4ce-3418-4aaf-9f6b-bd983de08ad0,Just had an amazing experience with @PhonePe. Thanks for the great service! #happy,instagram,PhonePe,positive,
+30446bb6-20f4-4d49-8f20-7f70a4bb67ba,Has anyone tried the new premium subscription on Flipkart?,facebook,Flipkart,neutral,
+51497e97-5f7a-48c3-912c-5930f753c374,"Very good experience with Flipkart. Easy to use, fast refunds when requested.",instagram,Flipkart,positive,
+371a9b8a-8559-40d7-8468-2e3f0c48999a,Delivery driver from Amazon was extremely rude and unhelpful.,instagram,Amazon,negative,delivery_issues
+2df031db-25ea-436c-8781-4f5e19e1a76b,Flipkart is the absolute best! Delivery was super quick. https://example.com/xyz,facebook,Flipkart,positive,
+dc7b3cb4-9bdb-4efb-bfaf-0ee75af0b657,Kudos to the Amazon team for always delivering top quality products.,reddit,Amazon,positive,
+d1b721fc-48c3-4120-9e23-3d0e35593e41,pleasantly surprised by how quickly phonepe handled my inquiry.,instagram,PhonePe,positive,
+dcebc990-4281-4cce-ae8a-af9d08508cb3,Payment failed but the money was deducted from my bank by PhonePe.,facebook,PhonePe,negative,billing_issues
+315c0e3b-9709-4281-a782-94688d8fbd86,How long does standard delivery take on Zomato?,reddit,Zomato,neutral,
+bcf4742b-4ef8-4c4f-babd-7219ffad0886,@Amazon please check your direct messages regarding my ticket.,facebook,Amazon,neutral,
+bbb77ec5-5dd4-4ad2-a954-4b30220196e8,Trying out PhonePe for the first time this week.,facebook,PhonePe,neutral,
+f79e44b0-5602-4ac6-b999-b48e892d1806,Just downloaded the latest PhonePe app update.,reddit,PhonePe,neutral,
+21ddc606-3284-48d0-99dd-56657c1dc02b,Why did my subscription for PhonePe auto-renew after I cancelled?,instagram,PhonePe,negative,billing_issues
+cdbb3ab7-ff2a-4985-b4f4-11778e806b63,Still waiting for my pending refund from Zomato after 3 weeks.,reddit,Zomato,negative,refund_problems
+4801d4b5-668e-403a-88cd-7899eb903ecb,just had an amazing experience with @flipkart. thanks for the great service! #happy,reddit,Flipkart,positive,
+8d3fb1a7-9137-4166-af0e-3b26c1a2b8d4,Has anyone tried the new premium subscription on Paytm?,facebook,Paytm,neutral,
+cb469cbe-130b-4d22-9b09-682c962239ba,Still waiting for my pending refund from PhonePe after 3 weeks.,facebook,PhonePe,negative,refund_problems
+0cc78057-f532-4c71-9553-b25fb147a712,Worst customer service experience ever with @Zomato. Rude agents.,twitter,Zomato,negative,customer_service
+d8d9eaa9-adcd-4ba1-802d-2ae9b52990e1,Waiting for my scheduled delivery from Flipkart.,reddit,Flipkart,neutral,
+b5bb02ed-e999-4ed8-9f99-59884b297c95,@Amazon please check your direct messages regarding my ticket.,facebook,Amazon,neutral,
+87849c96-4b66-40e8-8b66-2b23919f03f4,@PhonePe please check your direct messages regarding my ticket.,twitter,PhonePe,neutral,
+6fce0664-a8a8-4305-b6d6-d7fb7842c632,Five stars for Flipkart! Loved the fast response and on-time order.,facebook,Flipkart,positive,
+84b533ec-6030-41a8-ae57-7df899740ba3,Just had an amazing experience with @Flipkart. Thanks for the great service! #happy,reddit,Flipkart,positive,
+7ebc92be-d39d-4199-87e8-b5e88733f5da,Everything arrived in perfect condition. Thank you @Paytm!,instagram,Paytm,positive,
+31553113-49df-40c5-aecb-9320c040d97b,Loved the discount and lightning fast shipping on Paytm today! 🎉,facebook,Paytm,positive,
+1d2b1a7a-8c20-4e54-826f-382375315715,Just had an amazing experience with @PhonePe. Thanks for the great service! #happy,twitter,PhonePe,positive,
+2af2ea06-9999-4c01-a020-817317c2f7e0,What are good alternative platforms to Zomato?,reddit,Zomato,neutral,
+e9c71cf8-bf94-41c3-94dd-3918cfcceb2e,Loved the discount and lightning fast shipping on Amazon today! 🎉,facebook,Amazon,positive,
+132bafef-b3d7-49f3-b0c1-b8872e552070,Love using Zomato! Always reliable and fast. 💯,twitter,Zomato,positive,
+3b867110-91ea-4f20-8497-91c26f54baf5,swiggy customer support is totally unresponsive and useless.,facebook,Swiggy,negative,customer_service
+7e3adf37-18d6-47a1-a5ce-cece62888cd8,Delicious food and timely delivery by Zomato. Will order again!,instagram,Zomato,positive,
+5aac52bf-3380-4408-9cd6-f166ee0fa7a0,"great delivery by @zomato, loved it! super fast and reliable. #satisfied",twitter,Zomato,positive,
+262486d8-fa8d-4735-9f46-f08ec0900d59,Fix your buggy and glitchy app @PhonePe! Buttons don't respond.,reddit,PhonePe,negative,app_bugs
+7c5e6ecb-f1cb-4c35-91f8-901bd727c35d,Absolutely fantastic service and prompt support from Amazon today.,facebook,Amazon,positive,
+68ea2039-e7cc-4384-b2be-faa8b1a5e1b8,Swiggy charged my account twice for the exact same order.,twitter,Swiggy,negative,billing_issues
+05c63614-2ce3-48cb-bdb7-e2d5c168703a,Just comparing prices between Zomato and other apps.,facebook,Zomato,neutral,
+1c650b74-9bfa-46c3-a220-35025d41fd23,Delicious food and timely delivery by PhonePe. Will order again!,twitter,PhonePe,positive,
+84c0ac67-d592-43af-bc8a-015d034e4f43,"Best platform ever, @Paytm you guys rock! Five stars! ✨",instagram,Paytm,positive,
+5b50a3e5-f8e4-47b9-8fbf-4624dce5c6bf,Absolutely fantastic service and prompt support from Flipkart today.,twitter,Flipkart,positive,
+70c65dfc-6887-4234-9348-bcc12374ca80,How long does standard delivery take on PhonePe?,reddit,PhonePe,neutral,
+bcf0707b-01d0-4abf-97d5-535cb4ddea39,Wondering if PhonePe delivers to rural postal codes.,facebook,PhonePe,neutral,
+02f6d102-bb7e-42fa-9b2c-76a79e5413cc,How long does standard delivery take on Zomato?,reddit,Zomato,neutral,
+64e2cd9b-2e20-4b04-88d4-724d54d75100,Five stars for PhonePe!!1! Loved the fast response and on-time order.,twitter,PhonePe,positive,
+44990d38-7d20-44ae-8d00-4fa92d38a145,Just had an amazing experience with @Swiggy. Thanks for the great service! #happy,twitter,Swiggy,positive,
+10aec69e-485d-4b1d-bc46-e5a7f5fc59d9,Can you pay with crypto or UPI credit on PhonePe?,twitter,PhonePe,neutral,
+b077fe05-7dc4-4638-adbc-13e6cb151b7c,Delicious food and timely delivery by PhonePe. Will order again!,reddit,PhonePe,positive,
+24bcba21-6e40-41b3-bd3a-57c34c296e26,Delicious food and timely delivery by Swiggy. Will order again!!1!,twitter,Swiggy,positive,
+8dd923fb-bb21-4454-8056-9e25d81f48fb,"The automated bot on Zomato is useless, can never speak to a human.",instagram,Zomato,negative,customer_service
+cf8ce050-64d7-46b8-86cf-732f3e54c3e6,"Returned the order 10 days ago, still no sign of refund from Paytm.",twitter,Paytm,negative,refund_problems
+8a6f17db-6fbb-4922-ae26-fa16f1fc7f52,What are good alternative platforms to Zomato?,facebook,Zomato,neutral,
+f88f80bb-dd95-49e8-bd17-b405f72e22d4,"Late delivery again, Flipkart is so inconsistent and delayed.",facebook,Flipkart,negative,delivery_issues
+f47aa13f-e841-40b5-bbec-243daae47968,"Great app, smooth UI and seamless checkout. Keep it up Paytm.",reddit,Paytm,positive,
+26dc984b-3805-4263-b95a-95ddbf215a86,"Great app, smooth UI and seamless checkout. Keep it up Zomato.",facebook,Zomato,positive,
+6c38629e-04cb-4eec-9781-96f1d743eb05,"Returned the order 10 days ago, still no sign of refund from Paytm.",twitter,Paytm,negative,refund_problems
+1fd1ba31-61de-4988-bc91-5d221308777c,Super impressed with @Flipkart! The driver was polite and order arrived early.,instagram,Flipkart,positive,
+65f2b211-6dbd-4557-a20c-e77a8bbf1e78,Just had an amazing experience with @Flipkart. Thanks for the great service! #happy,instagram,Flipkart,positive,
+606d7586-6088-4e3c-8470-6cd813754c00,How long does standard delivery take on PhonePe?,twitter,PhonePe,neutral,
+93aba3b3-699b-4095-874c-1ae342cee7b3,Absolutely fantastic service and prompt support from Zomato today.,instagram,Zomato,positive,
+77df37bd-5282-42e5-99d9-58aafc0cfe39,Does anyone know how to change payment method on Flipkart?,reddit,Flipkart,neutral,
+994c66fb-e377-4287-96d5-0972de3b0907,Kudos to the Zomato team for always delivering top quality products.,facebook,Zomato,positive,
+ee260782-0aac-4077-893a-07c671749cf4,Support representative closed my ticket without resolving anything on Zomato.,instagram,Zomato,negative,customer_service
+947e6fd3-47df-4330-a38a-d00e421c4fae,Saw an advertisement for Swiggy on YouTube yesterday.,reddit,Swiggy,neutral,
+3954f7bd-995f-4aec-9a19-e25ba78d31b5,PhonePe customer support is totally unresponsive and useless.,instagram,PhonePe,negative,customer_service
+9dc71511-640c-447a-a469-08881ae8d966,what are good alternative platforms to amazon?,twitter,Amazon,neutral,
+8282758c-1475-466b-bfcd-c2b4b0d4943d,Wondering if PhonePe delivers to rural postal codes.,instagram,PhonePe,neutral,
+0bafe659-7a97-4336-82d6-d083bab76776,Love using Zomato! Always reliable and fast. 💯,facebook,Zomato,positive,
+4ba637e0-66b0-4e2c-8481-4b8d029b6ee6,Outstanding customer support from Zomato. Solved my issue within 5 minutes!,twitter,Zomato,positive,
+691a2f50-6bdc-4def-8dae-8a9da09bc6fa,"Great app, smooth UI and seamless checkout. Keep it up Paytm.",facebook,Paytm,positive,
+81f469ef-1d54-4982-9f9c-f34c2eb0ca7f,Refund marked processed but not reflecting in my bank account from Paytm.,instagram,Paytm,negative,refund_problems
+019dc633-5f15-4c97-a94f-0b0c4d963570,"Great app, smooth UI and seamless checkout. Keep it up Swiggy.",instagram,Swiggy,positive,
+aef258a9-fd10-4630-b616-b7ad1d667f86,Waiting for my scheduled delivery from Amazon.,facebook,Amazon,neutral,
+2d800f5f-795f-42ac-b85d-f6ffb58565ff,Just downloaded the latest PhonePe app update.,reddit,PhonePe,neutral,
+58ad3dc7-fd5e-4e86-b905-b11bdde22c9a,Just comparing prices between Amazon and other apps.,instagram,Amazon,neutral,
+b345fddf-fb12-49e2-a7c6-cce42b7f5aa4,I think Flipkart changed their user interface today.,reddit,Flipkart,neutral,
+cf98a8bd-415f-45d5-b0ef-029e39af333b,why did my subscription for amazon auto-renew after i cancelled?,twitter,Amazon,negative,billing_issues
+7550f970-87a6-4710-aa73-379896917e8e,Outstanding customer support from Paytm. Solved my issue within 5 minutes!,twitter,Paytm,positive,
+6abd7877-2861-448c-9fc7-d1fbcfdea121,Critical bug in Paytm app: cart empties itself on checkout.,twitter,Paytm,negative,app_bugs
+347a023d-bcd7-47ea-a0ce-27ffd181e92f,Kudos to the Swiggy team for always delivering top quality products.,instagram,Swiggy,positive,
+5687e1e7-da14-413d-bfaf-5c2933a05a2e,kudos to the flipkart team for always delivering top quality products.,twitter,Flipkart,positive,
+6eee5c2e-3a64-4d9e-8e0d-9df41d678b44,Worst customer service experience ever with @Amazon. Rude agents.,facebook,Amazon,negative,customer_service
+01b9bc15-fbb2-49ca-af2f-b2190db12016,What are good alternative platforms to Amazon?,instagram,Amazon,neutral,
+d42fc119-0cf3-4143-9285-5cfe0363704d,Waited 4 hours for my food delivery from @Swiggy. Disgraceful delay.,facebook,Swiggy,negative,delivery_issues
+f3b92770-949d-440a-b060-451dcf26b9ed,"Food from Zomato was cold, stale, and smelled awful.",facebook,Zomato,negative,product_quality
+85232ff7-1ac8-4889-b40a-0ea49305c84c,refund marked processed but not reflecting in my bank account from swiggy.,twitter,Swiggy,negative,refund_problems
+ec41ec00-6e70-4138-93db-99a0ac728c6b,phonepe customer support is totally unresponsive and useless.,facebook,PhonePe,negative,customer_service
+af9c9f98-83be-4035-a675-b45853009640,Absolutely fantastic service and prompt support from PhonePe today.,reddit,PhonePe,positive,
+5a721e75-3bed-4104-b1bb-ea78f5991821,Using Swiggy makes my daily routine so much easier and pleasant.,reddit,Swiggy,positive,
+c0839be2-57f5-4029-82ae-7a11b7e73a49,Outstanding customer support from Paytm. Solved my issue within 5 minutes!,reddit,Paytm,positive,
+10edaff9-f976-4ce7-b523-4e2f803fd74a,Pleasantly surprised by how quickly Amazon handled my inquiry.,instagram,Amazon,positive,
+d1419343-4976-43c6-85ef-ff4ada9d4515,Outstanding customer support from Flipkart. Solved my issue within 5 minutes!,facebook,Flipkart,positive,
+80ed196e-4eb6-463c-9ae2-bf4977dc6066,Is Paytm servers down for anyone else right now?,reddit,Paytm,neutral,
+1ecc6d6f-238b-4602-b515-bd10b09e3f67,Trying out PhonePe for the first time this week.,facebook,PhonePe,neutral,
+3711832c-b0bf-4d46-9ed7-e4691e627f5d,Overcharged by Amazon on checkout and support refuses to adjust the bill.,instagram,Amazon,negative,billing_issues
+c6529c3c-2dc4-4fd3-b023-cdd9a8635ee4,Thank you Swiggy for the quick resolution and courteous team 😊,reddit,Swiggy,positive,
+ea9c36bd-159a-4c2a-b58d-b5bb440aa584,Never got my delivery from @Zomato. Worst service ever.,instagram,Zomato,negative,delivery_issues
+2546250f-5376-4a9e-80a6-8f11b94548cf,Where is my money @Zomato? Refund not processed after return #scam,twitter,Zomato,negative,refund_problems
+db2bb47e-833c-456f-a7b0-7c98f5822693,Wondering if Swiggy delivers to rural postal codes.,facebook,Swiggy,neutral,
+e617c1f5-bd18-48b2-afaa-2e234f1fb749,"Can't log into my Flipkart account, getting internal error 500.",facebook,Flipkart,negative,app_bugs
+cde793f5-5ca1-4a91-8555-1744f051e17e,Outstanding customer support from Zomato. Solved my issue within 5 minutes!,twitter,Zomato,positive,
+9c8b5239-0dc7-4809-b114-f90dbcc08e60,the phonepe app keeps crashing constantly when i try to pay.,instagram,PhonePe,negative,app_bugs
+6aae23fe-26b4-4e47-8584-6f0975bf961b,overcharged by zomato on checkout and support refuses to adjust the bill.,reddit,Zomato,negative,billing_issues
+ceaf7006-d99f-46dd-92e1-ae1e035be8c3,How long does standard delivery take on Zomato?,reddit,Zomato,neutral,
+29cce435-be52-4f6f-a764-07b148712832,"Food from PhonePe was cold, stale, and smelled awful.",instagram,PhonePe,negative,product_quality
+fd980c1d-4dca-4d05-aaef-69017174b43b,Been stuck on hold for 45 mins with PhonePe phone support.,instagram,PhonePe,negative,customer_service
+807ead79-39d1-4844-ab39-7aba88ba3973,Just had an amazing experience with @PhonePe. Thanks for the great service! #happy,facebook,PhonePe,positive,
+1e15b721-e435-40f0-a3e3-f34c79c8455a,@Flipkart please check your direct messages regarding my ticket.,facebook,Flipkart,neutral,
+8090232d-bad7-4df2-be36-6affc75e5fe3,Absolutely fantastic service and prompt support from PhonePe today.,instagram,PhonePe,positive,
+3467ccfc-174a-448d-acdb-90ecb6e7b9a3,Wondering if PhonePe delivers to rural postal codes.,twitter,PhonePe,neutral,
+51a740ba-9d7c-41f8-87f8-5b56b6ed5bf5,PhonePe arbitrarily rejected my valid return and refund claim.,facebook,PhonePe,negative,refund_problems
+0cda49b7-90ba-4646-acc0-6618b3a19ec0,How long does standard delivery take on Zomato?,facebook,Zomato,neutral,
+d2b1beb3-5e4d-4d4b-b5de-61bd9f7e88f1,why is it impossible to get help from a representative at paytm?,reddit,Paytm,negative,customer_service
+0a288ebd-8ff0-4582-8886-451db7c971b4,Waiting for my scheduled delivery from Zomato.,reddit,Zomato,neutral,
+408eba8f-5e7f-486f-8bc2-fa6b51cbff81,Hidden fees and unauthorized charges on Swiggy? Disgusting practice.,facebook,Swiggy,negative,billing_issues
+230ecc55-deb5-45dc-8bbb-a58d3b8930e6,Highly recommend Flipkart for everyone! Great delivery and lovely packaging. #awesome,reddit,Flipkart,positive,
+ed4c208a-1bb4-447c-af85-b26323590f32,Pleasantly surprised by how quickly Swiggy handled my inquiry.,reddit,Swiggy,positive,
+c28b5c6e-24fe-4924-9d2a-3fabcdcc41df,Terrible quality from Swiggy. Defective product right out of the box.,facebook,Swiggy,negative,product_quality
+c010d4ca-e6e3-4e72-bfd2-57d483ea789f,does anyone know how to change payment method on swiggy?,reddit,Swiggy,neutral,
+f4cb59ae-3dd6-400e-8b39-2ee17ef165de,@Flipkart please check your direct messages regarding my ticket.,instagram,Flipkart,neutral,
+57865a6a-903c-48a0-b17a-d11c4c4a2105,What are good alternative platforms to Paytm?,reddit,Paytm,neutral,
+e9a0c1be-e2f3-4a3b-b778-a9517edadfc5,Has anyone tried the new premium subscription on Swiggy?,facebook,Swiggy,neutral,
+242d9427-c2c8-4ca4-84f5-44ef30a57681,Outstanding customer support from PhonePe. Solved my issue within 5 minutes!,instagram,PhonePe,positive,
+a535d513-7d31-47a5-bf68-3b9a52472c3c,Wondering if PhonePe delivers to rural postal codes.,facebook,PhonePe,neutral,
+9a3e1993-fa86-4ea1-b818-14b297b3cb2c,Outstanding customer support from Amazon. Solved my issue within 5 minutes!,reddit,Amazon,positive,
+9df0eb17-e54d-43c8-a778-f7243579b7e5,App freezes every time I open the search tab on Flipkart.,instagram,Flipkart,negative,app_bugs
+3508d923-c989-4735-a335-cf5e7ac0a40f,Seamless payment experience on Paytm. Really happy with the new update.,facebook,Paytm,positive,
+3b81dab3-9a78-4d22-9795-873c9baa28a4,Flipkart website is completely broken on checkout page.,facebook,Flipkart,negative,app_bugs
+63be84de-84d8-4967-b8c8-eb5b133e74ae,App freezes every time I open the search tab on Swiggy.,facebook,Swiggy,negative,app_bugs
+a340bf38-4ba0-4b4b-876b-987b3b408511,Super impressed with @Amazon! The driver was polite and order arrived early.,facebook,Amazon,positive,
+73bf38ca-5371-4935-ad08-fbb5b7cc665f,@Paytm please check your direct messages regarding my ticket.,twitter,Paytm,neutral,
+6eaff631-b57b-4997-8249-7c58d229bf26,Still waiting for my pending refund from PhonePe after 3 weeks.,instagram,PhonePe,negative,refund_problems
+f295e2f4-72d5-4a54-99e3-fe0c3a68f632,I think PhonePe changed their user interface today.,reddit,PhonePe,neutral,
+ea986d9c-ae0f-4bba-b3e1-320add24141e,waiting for my scheduled delivery from paytm.,twitter,Paytm,neutral,
+64e8b167-7223-40f7-b719-17a4842d3fbf,"Great delivery by @Paytm, loved it! Super fast and reliable. #satisfied",instagram,Paytm,positive,
+0727e316-9261-47a8-a056-ad1fd86d467c,Just comparing prices between Paytm and other apps.,twitter,Paytm,neutral,
+ae918889-4b2c-48bd-930b-e5e282d36637,Delicious food and timely delivery by Paytm. Will order again!,reddit,Paytm,positive,
+c0bbe276-48cb-4137-9fe8-30b6d911806e,Saw an advertisement for PhonePe on YouTube yesterday.,facebook,PhonePe,neutral,
+b4e0fbcd-5b06-4d31-a6b7-5eff4e5fbcc3,Fix your buggy and glitchy app @Paytm! Buttons don't respond.,facebook,Paytm,negative,app_bugs
+c70bd92b-e601-4c13-9483-8c52d3c13698,Has anyone tried the new premium subscription on Flipkart?,facebook,Flipkart,neutral,
+289eb5b8-bb14-4d59-8728-49d755d1cf8a,Worst customer service experience ever with @Swiggy. Rude agents.,reddit,Swiggy,negative,customer_service
+53157304-f462-46f6-928e-5ac6162f1bc8,Everything arrived in perfect condition. Thank you @Amazon!,reddit,Amazon,positive,
+84bf047f-4393-4538-994f-b9e5c80d57cf,support representative closed my ticket without resolving anything on swiggy.,twitter,Swiggy,negative,customer_service
+2c52bb31-744f-4a7c-9cc5-8596a638b04b,Terrible quality from Paytm. Defective product right out of the box.,reddit,Paytm,negative,product_quality
+619a9fa6-a67a-4a7e-9448-be6222dbdfe3,Just downloaded the latest Swiggy app update.,instagram,Swiggy,neutral,
+fcefbade-9535-431c-90e4-af09678f280a,"best platform ever, @paytm you guys rock! five stars! ✨",instagram,Paytm,positive,
+e7ceee1e-a82e-4a95-a96d-f010b35735a2,"Late delivery again, Amazon is so inconsistent and delayed.",instagram,Amazon,negative,delivery_issues
+1af70c10-f620-4284-b1da-dd42a20f7434,Zomato arbitrarily rejected my valid return and refund claim.,reddit,Zomato,negative,refund_problems
+4ed51a0b-915a-460a-bbc4-917e24e7c6ff,Loved the discount and lightning fast shipping on Amazon today! 🎉,twitter,Amazon,positive,
+cf0f0f28-5265-4669-bc91-1fd3e7cfeead,Hidden fees and unauthorized charges on Amazon? Disgusting practice.,instagram,Amazon,negative,billing_issues
+87f9c7e7-b4ac-4297-800e-1f0e62c498d2,Where is my money @Zomato? Refund not processed after return #scam,instagram,Zomato,negative,refund_problems
+c9671f76-d2d2-4fcc-955b-5a7a473cca85,What are good alternative platforms to Amazon?,facebook,Amazon,neutral,
+c1057e61-02b4-4ea6-a5d3-7be96f639692,What are good alternative platforms to Flipkart?,reddit,Flipkart,neutral,
+7239c48d-1da3-4fb7-8cf1-0cc891a55c8f,absolutely fantastic service and prompt support from zomato today.,facebook,Zomato,positive,
+f5721181-a1c7-4bff-917a-3c1b77dd76d6,Absolutely fantastic service and prompt support from Paytm today.,instagram,Paytm,positive,
+0a95a2b4-13c7-41ad-bb61-148727a6bde8,Just downloaded the latest Zomato app update.,facebook,Zomato,neutral,
+609dccb1-1057-434d-8891-33d6768405e6,The item I received from Zomato is broken and counterfeit.,facebook,Zomato,negative,product_quality
+6c651ebe-b657-41b2-a849-3a5bde670b03,Critical bug in Swiggy app: cart empties itself on checkout.,facebook,Swiggy,negative,app_bugs
+3fc218ea-3951-4b08-bf2d-11942fcf902c,Highly recommend Flipkart for everyone! Great delivery and lovely packaging. #awesome,twitter,Flipkart,positive,
+0b1e47b0-6619-4d5b-b747-6bad8c16bc11,Still waiting for my pending refund from Paytm after 3 weeks.,facebook,Paytm,negative,refund_problems
+3d01958b-c291-4b01-8e4d-3cfc9f752c85,"Great app, smooth UI and seamless checkout. Keep it up Flipkart.",instagram,Flipkart,positive,
+068d3a16-04ad-4a38-93b2-3d6b1ea161e2,I demand my money back Swiggy! Fraudulent refusal to refund.,reddit,Swiggy,negative,refund_problems
+ad513163-68f0-4e64-97fe-352e5a46e76f,I demand my money back Flipkart! Fraudulent refusal to refund.,instagram,Flipkart,negative,refund_problems
+01c77413-79dc-48b7-b447-200b221727e0,Just downloaded the latest Paytm app update.,facebook,Paytm,neutral,
+e0968b63-3372-4f43-97fa-4275ea9227d6,App freezes every time I open the search tab on PhonePe.,instagram,PhonePe,negative,app_bugs
+2119f134-c05f-4fb3-bfc1-21a4e9b044cb,Just comparing prices between Amazon and other apps.,instagram,Amazon,neutral,
+532d194d-53da-45c9-ab16-af7515438771,I think Amazon changed their user interface today.,reddit,Amazon,neutral,
+27ea9158-0f73-49ab-9de4-04fdc47b9557,Love using Zomato! Always reliable and fast. 💯,facebook,Zomato,positive,
+ceba908f-1acd-4c49-b769-5ed9c6f674ec,Tracking status says delivered but I received nothing from PhonePe.,twitter,PhonePe,negative,delivery_issues
+6bc06aa7-9451-44db-b7e4-fc4dedb21dc0,Delivery driver from Amazon was extremely rude and unhelpful.,reddit,Amazon,negative,delivery_issues
+6ef6f5f0-9d0c-41f9-bd79-a6a59baef5fa,Why is it impossible to get help from a representative at Paytm?,reddit,Paytm,negative,customer_service
+2fa3df7a-53e8-4c8f-aab1-dfa272f838e4,Outstanding customer support from Amazon. Solved my issue within 5 minutes!,instagram,Amazon,positive,
+953da1c4-9f35-4ae0-9737-12f6d7d34c15,Love using Flipkart! Always reliable and fast. 💯,instagram,Flipkart,positive,
+5459baf7-e53a-4852-a19e-2dbd28614504,Saw an advertisement for Paytm on YouTube yesterday.,reddit,Paytm,neutral,
+80870008-7871-4e63-9f83-4799f7d64e6e,Waiting for my scheduled delivery from Flipkart.,facebook,Flipkart,neutral,
+d06f6b9c-9015-4c9d-9f2a-0c513e2180a8,Pleasantly surprised by how quickly Paytm handled my inquiry.,reddit,Paytm,positive,
+a94dc0e0-cd9b-4eb9-82a9-ced031ce4b0d,Highly recommend Flipkart for everyone! Great delivery and lovely packaging. #awesome,twitter,Flipkart,positive,
+897f371d-44d0-4ff6-b655-34a12d95457f,Still waiting for my pending refund from Amazon after 3 weeks.,instagram,Amazon,negative,refund_problems
+ef0eacac-034c-4332-b7a9-35b6f2c6c169,Delicious food and timely delivery by Amazon. Will order again!,instagram,Amazon,positive,
+94c01d86-dc0c-48f4-ad67-52d04fb45b11,App freezes every time I open the search tab on PhonePe.,facebook,PhonePe,negative,app_bugs
+c1ed2447-19c3-464b-9e95-81bd44322acf,"Great delivery by @Flipkart, loved it! Super fast and reliable. #satisfied",instagram,Flipkart,positive,
+47e18e6d-d34d-4858-8c73-f51de51a37f8,"Returned the order 10 days ago, still no sign of refund from Paytm.",instagram,Paytm,negative,refund_problems
+b6f28c8f-d935-439a-bc75-f02e50201807,Paytm website is completely broken on checkout page.,reddit,Paytm,negative,app_bugs
+21eb69a1-8fd8-4494-9841-861582979e5b,"Best platform ever, @Flipkart you guys rock! Five stars! ✨",reddit,Flipkart,positive,
+68af5dbd-a51e-4637-891f-dd725eff39ff,Fix your buggy and glitchy app @Zomato! Buttons don't respond.,twitter,Zomato,negative,app_bugs
+6d444a9a-f623-4ad6-951e-fea6727feaa5,Thank you Flipkart for the quick resolution and courteous team 😊,facebook,Flipkart,positive,
+5c88faf9-847a-405c-abe3-a11c7680f58f,Saw an advertisement for Swiggy on YouTube yesterday.,twitter,Swiggy,neutral,
+b9fdeb8f-a02c-42ad-8d77-762c31afb058,Just had an amazing experience with @Paytm. Thanks for the great service! #happy,twitter,Paytm,positive,
+e852b11b-62c7-4ed6-8b9b-9e09fe55391f,Hidden fees and unauthorized charges on PhonePe? Disgusting practice.,instagram,PhonePe,negative,billing_issues
+e1e5f3fc-bca2-466f-a27d-7f444c2953d7,Received a spoiled item from Amazon. Horrible quality check.,instagram,Amazon,negative,product_quality
+b69d719f-03fb-4ee8-8188-177f2e304dec,Trying out Flipkart for the first time this week.,instagram,Flipkart,neutral,
+15b9c41f-4444-4c7c-8b0c-fe5fb728a141,Critical bug in Zomato app: cart empties itself on checkout.,reddit,Zomato,negative,app_bugs
+76b99c7d-6b3a-48cb-9047-baaacb5aa4a6,Just downloaded the latest Zomato app update.,reddit,Zomato,neutral,
+eb546900-0a84-46cf-a7dd-482c8bffba25,"The automated bot on Swiggy is useless, can never speak to a human.",instagram,Swiggy,negative,customer_service
+c90a1778-6de1-4e0c-9eba-a868190eb46b,Using Flipkart makes my daily routine so much easier and pleasant.,twitter,Flipkart,positive,
+a6ef0d15-8426-4da6-882c-ce635e5cbb53,Not what I expected from Swiggy. Looks fake and cheap.,instagram,Swiggy,negative,product_quality
+89e78a45-18d7-401f-b38f-e71e86dd6ff4,Using PhonePe makes my daily routine so much easier and pleasant.,facebook,PhonePe,positive,
+7feb8293-4f1e-4c31-92d2-326899898732,Hidden fees and unauthorized charges on Paytm? Disgusting practice.,reddit,Paytm,negative,billing_issues
+c5c8c6b7-0186-443c-9699-f2d465458a96,Absolutely fantastic service and prompt support from PhonePe today.,reddit,PhonePe,positive,
+22e712f6-3a2f-4903-8939-064cf3c6d16f,Wondering if Amazon delivers to rural postal codes.,twitter,Amazon,neutral,
+3a0ef12b-ee94-4a8f-9aa3-a5c0d0bcf3c1,Received a spoiled item from Amazon. Horrible quality check.,reddit,Amazon,negative,product_quality
+bcfc18b8-e07e-4a6a-8709-e362ff127cd9,outstanding customer support from phonepe. solved my issue within 5 minutes!,reddit,PhonePe,positive,
+41105e0a-da22-458d-bf80-4295aef6f8a6,My order from Zomato is 3 days late! 😡 #fail #terrible,reddit,Zomato,negative,delivery_issues
+79b8c65c-bccb-49e4-b9df-29344ef3e5aa,"Very good experience with Paytm. Easy to use, fast refunds when requested.",facebook,Paytm,positive,
+3ca777be-b24d-471b-92b4-ff50c5c17a4b,The item I received from Paytm is broken and counterfeit.,reddit,Paytm,negative,product_quality
+c4a9fe0a-953c-4eb5-bd50-0c4ea2c6bb2e,Outstanding customer support from PhonePe. Solved my issue within 5 minutes!,facebook,PhonePe,positive,
+95cd9d02-5b91-4942-91e4-2b434e938eae,Loved the discount and lightning fast shipping on Zomato today! 🎉,reddit,Zomato,positive,
+dbccee06-7a49-462d-9065-a8a6a1802538,Just had an amazing experience with @Amazon. Thanks for the great service! #happy,twitter,Amazon,positive,
+0177826c-af1b-40b4-bc6c-7dd7941d9247,Just comparing prices between Paytm and other apps.,twitter,Paytm,neutral,
+1936f1e6-2285-4bc1-96fb-d8df63ccd30a,Notice: Swiggy scheduled maintenance tonight at midnight.,twitter,Swiggy,neutral,
+cdcb91c6-a5e3-4b7e-8372-9164c297a6b3,using paytm makes my daily routine so much easier and pleasant.,reddit,Paytm,positive,
+967fae83-1921-4a33-96f1-b3e11e236fd7,not what i expected from phonepe. looks fake and cheap.,twitter,PhonePe,negative,product_quality
+067a11f6-0880-4a63-a0a4-8194c4fc312e,Just had an amazing experience with @Paytm. Thanks for the great service! #happy,reddit,Paytm,positive,
+da1de58c-65a2-419e-8626-dc9b009973c3,Trying out Zomato for the first time this week.,facebook,Zomato,neutral,
+cac22b99-c7ee-4e42-9d98-8750b4550919,Critical bug in Paytm app: cart empties itself on checkout.,twitter,Paytm,negative,app_bugs
+ece44e1c-0666-4263-b9ae-cde0ac0f4d9d,@Amazon please check your direct messages regarding my ticket.,facebook,Amazon,neutral,
+bf5f95e5-8aa0-46da-8d15-e2dcf60cdba0,Using Swiggy makes my daily routine so much easier and pleasant.,twitter,Swiggy,positive,
+d88a0323-561f-49ea-9a7a-fc3275c7c7f3,"Great delivery by @PhonePe, loved it! Super fast and reliable. #satisfied",reddit,PhonePe,positive,
+337d2e81-472b-4793-8767-70f7fc004fb8,"Best platform ever, @PhonePe you guys rock! Five stars! ✨",facebook,PhonePe,positive,
+e5802803-db3e-45f3-bc46-88023ad0b142,Everything arrived in perfect condition. Thank you @Paytm!,instagram,Paytm,positive,
+78075e80-7192-4dda-be80-0e763a966211,Outstanding customer support from Swiggy. Solved my issue within 5 minutes!,reddit,Swiggy,positive,
+c2701360-7197-45ea-879e-5632a8c96c34,"Very good experience with Zomato. Easy to use, fast refunds when requested.",reddit,Zomato,positive,
+0da6ffb0-7bb9-47a1-8eb4-23e00cc08770,Pleasantly surprised by how quickly Swiggy handled my inquiry.,twitter,Swiggy,positive,
+5660f452-c849-4850-822f-121707f7e005,Everything arrived in perfect condition. Thank you @Swiggy!,reddit,Swiggy,positive,
+476213d1-ea0c-44bf-8997-16d88d1c3628,How long does standard delivery take on Flipkart?,instagram,Flipkart,neutral,
+9b083978-2688-4bb8-8752-238a7a157ed0,Just had an amazing experience with @Zomato. Thanks for the great service! #happy,instagram,Zomato,positive,
+629ab8fa-4b15-4b17-96c4-f0a46896e131,Using Amazon makes my daily routine so much easier and pleasant.,facebook,Amazon,positive,
+515ddc3a-0d4d-471e-bf0a-c0f023ca809b,Can you pay with crypto or UPI credit on PhonePe?,instagram,PhonePe,neutral,
+7c91b024-a8ef-426f-a091-a2e39cc4aa8e,Why is it impossible to get help from a representative at Swiggy?,reddit,Swiggy,negative,customer_service
+ed56cb3e-4d3e-4377-b612-c8ce2c03fc24,"The automated bot on PhonePe is useless, can never speak to a human.",instagram,PhonePe,negative,customer_service
+0b722217-dee1-45c9-92a7-e6092a9b4823,Is Flipkart servers down for anyone else right now?,reddit,Flipkart,neutral,
+1da30424-be40-44a9-bb2a-084ddcb2f8c2,Is PhonePe servers down for anyone else right now?,instagram,PhonePe,neutral,
+9d332b5a-f355-4c0c-aaed-4fc39841b6fa,Loved the discount and lightning fast shipping on Amazon today! 🎉,instagram,Amazon,positive,
+8647e6a7-664a-4b4c-9b1d-9a5d54056de8,Amazon arbitrarily rejected my valid return and refund claim.,reddit,Amazon,negative,refund_problems
+cb1ad87c-5b7b-4602-bd97-5da2e5471527,Received a spoiled item from Zomato. Horrible quality check.,reddit,Zomato,negative,product_quality
+585d05e6-b3d0-4e42-8bc8-082e31ef349e,Just had an amazing experience with @Zomato. Thanks for the great service! #happy,reddit,Zomato,positive,
+de022cfa-61c2-4ece-8e02-537aae903771,saw an advertisement for phonepe on youtube yesterday.,reddit,PhonePe,neutral,
+0e4a572a-908e-482d-972d-487b7d337994,Waited 4 hours for my food delivery from @PhonePe. Disgraceful delay.,twitter,PhonePe,negative,delivery_issues
+258505bf-d868-462e-ab53-2688179531d8,Loved the discount and lightning fast shipping on PhonePe today! 🎉,twitter,PhonePe,positive,
+1ceb79c5-f750-4a9a-bb41-fa4f9075c1c3,highly recommend swiggy for everyone! great delivery and lovely packaging. #awesome,reddit,Swiggy,positive,
+c4f81611-852c-429a-aea5-1fd791a9b4eb,Can you pay with crypto or UPI credit on PhonePe?,instagram,PhonePe,neutral,
+79da9cec-a790-4e70-b546-4851d23b7555,Paytm customer support is totally unresponsive and useless.,instagram,Paytm,negative,customer_service
+5502e918-6efc-4f64-a50f-c2bde6766eb7,Amazon arbitrarily rejected my valid return and refund claim.,twitter,Amazon,negative,refund_problems
+93cb478a-9923-40d1-b6f9-45ac81b41e1f,why is it impossible to get help from a representative at phonepe?,reddit,PhonePe,negative,customer_service
+d2cbd597-007d-4685-b1c7-c4cb5c9da572,Does anyone know how to change payment method on Amazon?,facebook,Amazon,neutral,
+33232973-6f8a-4dfd-b4fc-3cb56caa7ea1,Paytm arbitrarily rejected my valid return and refund claim.,twitter,Paytm,negative,refund_problems
+dc93be97-8e07-4b2a-a9c5-29f6be3d3ef7,Is PhonePe servers down for anyone else right now?,instagram,PhonePe,neutral,
+9aa7333e-aa22-48f4-a5c3-0c62a1249ad1,Absolutely fantastic service and prompt support from Zomato today.,instagram,Zomato,positive,
+47ed3433-5cc7-4900-a176-e52c4ab466a9,Kudos to the PhonePe team for always delivering top quality products.,instagram,PhonePe,positive,
+cfbedc71-87fd-41c9-91b8-816ca799c149,Still waiting for my pending refund from Flipkart after 3 weeks.,facebook,Flipkart,negative,refund_problems
+428fa9aa-3e42-4212-98f3-e6aaa6b93ad5,Waiting for my scheduled delivery from Swiggy.,facebook,Swiggy,neutral,
+a8ff9e30-6f5c-4b84-b452-4e32c05be21e,Fix your buggy and glitchy app @PhonePe! Buttons don't respond.,facebook,PhonePe,negative,app_bugs
+d51b57f3-3925-40da-b4f7-63191c7f184b,Five stars for Zomato! Loved the fast response and on-time order.,instagram,Zomato,positive,
+b5a91cdd-d770-4c50-967b-d7f85354c846,Not what I expected from Swiggy. Looks fake and cheap.,twitter,Swiggy,negative,product_quality
+3235f37a-21e5-4ccb-a41d-36c0b7d51e5c,Pleasantly surprised by how quickly Zomato handled my inquiry.,reddit,Zomato,positive,
+631de536-b70d-4fa0-b204-becdd941354e,"Very good experience with Paytm. Easy to use, fast refunds when requested.",instagram,Paytm,positive,
+88ed486c-fc70-4eab-9a66-f87e451c8969,Outstanding customer support from Zomato. Solved my issue within 5 minutes!,twitter,Zomato,positive,
+b4c781d2-fbd2-4129-846e-2b627c2fc998,"Great delivery by @Zomato, loved it! Super fast and reliable. #satisfied",reddit,Zomato,positive,
+36f639e9-384f-4240-a949-e69623fda15b,"late delivery again, zomato is so inconsistent and delayed.",instagram,Zomato,negative,delivery_issues
+b9319c62-5aec-45d5-9ff3-b7429de12c36,"Very good experience with Swiggy. Easy to use, fast refunds when requested.",instagram,Swiggy,positive,
+d7197d24-fdb9-457a-8135-9ad800df48c9,@Zomato please check your direct messages regarding my ticket.,twitter,Zomato,neutral,
+3302abb0-cf45-407b-af5e-9b0fa1efb508,Refund marked processed but not reflecting in my bank account from Swiggy.,twitter,Swiggy,negative,refund_problems
+05f5d9b4-9e7c-4c8e-975f-45ea013ed6bf,Five stars for Paytm!!1! Loved the fast response and on-time order.,instagram,Paytm,positive,
+2c24fd55-ce67-4e4a-8938-34e6f863029e,Highly recommend Amazon for everyone! Great delivery and lovely packaging. #awesome,reddit,Amazon,positive,
+eb760eb7-9606-414d-99b4-ea27974ab577,I demand my money back PhonePe! Fraudulent refusal to refund.,facebook,PhonePe,negative,refund_problems
+3742dc0f-2e9d-4e1d-8b48-94852e2a03d3,Flipkart is the absolute best! Delivery was super quick. https://example.com/xyz,instagram,Flipkart,positive,
+872b7937-6423-4f46-8c62-07faea46d54f,Just comparing prices between Flipkart and other apps.,facebook,Flipkart,neutral,
+6fbe7691-711b-4e82-b116-a45c4c87d1bb,"Food from PhonePe was cold, stale, and smelled awful.",twitter,PhonePe,negative,product_quality
+b5e62d7f-d570-426f-b8aa-02fc39dfab16,Terrible quality from Flipkart. Defective product right out of the box.,instagram,Flipkart,negative,product_quality
+f2585cb0-1a99-4220-958b-d3f263660291,Hidden fees and unauthorized charges on Paytm? Disgusting practice.,reddit,Paytm,negative,billing_issues
+6ef0c34a-36e6-4085-910e-995cabab1141,How long does standard delivery take on Zomato?,twitter,Zomato,neutral,
+cbd21cda-2f2c-4424-b1cc-80ed824f32e1,Just comparing prices between Paytm and other apps.,facebook,Paytm,neutral,
+7cb9d566-9403-4820-b1b8-df17c9b746f6,Still waiting for my pending refund from Swiggy after 3 weeks.,twitter,Swiggy,negative,refund_problems
+ad5c7463-5e09-4b34-ba73-f182677159f0,Fix your buggy and glitchy app @Swiggy! Buttons don't respond.,twitter,Swiggy,negative,app_bugs
+417cecb2-d2d7-40a1-b152-7bb16da773a4,Five stars for Swiggy! Loved the fast response and on-time order.,facebook,Swiggy,positive,
+a5d4d393-736b-4c10-8550-f94187e6547a,Notice: Zomato scheduled maintenance tonight at midnight.,facebook,Zomato,neutral,
+fe2bacd4-a845-412e-96b3-5108f37d7523,Highly recommend Zomato for everyone! Great delivery and lovely packaging. #awesome,twitter,Zomato,positive,
+b60a6d38-50de-4393-8b89-0f817e2c2e5d,Just comparing prices between Zomato and other apps.,instagram,Zomato,neutral,
+cb6f48e2-c228-410d-a6dd-a011b7697318,Outstanding customer support from Swiggy. Solved my issue within 5 minutes!,twitter,Swiggy,positive,
+2a3de3ed-92ba-43d5-972a-8370bd0a5611,Payment failed but the money was deducted from my bank by Flipkart.,twitter,Flipkart,negative,billing_issues
+4f0b46d7-a568-44a6-ab27-97f4094c25a1,highly recommend paytm for everyone! great delivery and lovely packaging. #awesome,twitter,Paytm,positive,
+5e81a410-7018-47ae-aea7-8458e579155d,love using flipkart! always reliable and fast. 💯,reddit,Flipkart,positive,
+78b12b86-219f-4947-9f8e-8c91744a592e,seamless payment experience on zomato. really happy with the new update.,instagram,Zomato,positive,
+35fc75cf-a60a-4838-9c39-c6124359afb0,"The automated bot on Amazon is useless, can never speak to a human.",twitter,Amazon,negative,customer_service
+30a7a0c0-9b45-40a4-ae46-738830660e8d,"Late delivery again, Flipkart is so inconsistent and delayed.",instagram,Flipkart,negative,delivery_issues
+e57f5732-d3fd-4c55-b6ac-131bbd128861,"Great app, smooth UI and seamless checkout. Keep it up Swiggy.",instagram,Swiggy,positive,
+49a04fd1-3e2f-4a46-b327-28678e1de073,Notice: Flipkart scheduled maintenance tonight at midnight.,twitter,Flipkart,neutral,
+8dbad919-1174-4662-bccb-b0ff5c5ec5fd,Trying out Zomato for the first time this week.,facebook,Zomato,neutral,
+ec08699f-86bc-4454-8c1b-f17644d1162e,"Very good experience with Amazon. Easy to use, fast refunds when requested.",instagram,Amazon,positive,
+937838ff-d7b4-49cb-b38d-382e766119b9,Five stars for Paytm! Loved the fast response and on-time order.,twitter,Paytm,positive,
+d0f19a93-363d-4827-8a0d-b896a1f19909,Zomato is the absolute best! Delivery was super quick. https://example.com/xyz,facebook,Zomato,positive,
+0c6fed29-397d-4f2c-a30d-bfbb7098122e,"Best platform ever, @Zomato you guys rock! Five stars! ✨",twitter,Zomato,positive,
+1812a4e9-d4be-4d99-9e5c-d4dfe830d464,Notice: Amazon scheduled maintenance tonight at midnight.,facebook,Amazon,neutral,
+973813fc-621d-4031-8148-39fcc9c96adc,Critical bug in Zomato app: cart empties itself on checkout.,facebook,Zomato,negative,app_bugs
+5cf0ffe3-f85a-4646-8b9b-5c55f719d933,the amazon app keeps crashing constantly when i try to pay.,twitter,Amazon,negative,app_bugs
+c4818014-6d57-45b4-a9cb-f6f76fab9882,"Returned the order 10 days ago, still no sign of refund from Zomato.",facebook,Zomato,negative,refund_problems
+ea433546-a179-4b77-805c-5fc03ce5626f,Amazon customer support is totally unresponsive and useless.,instagram,Amazon,negative,customer_service
+fc65e058-8887-4db1-9f4d-73dfadd85f68,Everything arrived in perfect condition. Thank you @Flipkart!,facebook,Flipkart,positive,
+f0e871fd-241f-4c87-9677-66ca614270d5,What are good alternative platforms to Paytm?,twitter,Paytm,neutral,
+490ebba1-f93b-4708-8c64-ee3d332ae9e0,Tracking status says delivered but I received nothing from Amazon.,instagram,Amazon,negative,delivery_issues
+8500c601-a2ad-4570-98ab-9a4f51aed092,highly recommend paytm for everyone! great delivery and lovely packaging. #awesome,instagram,Paytm,positive,
+b7c77cda-520e-4089-ab1e-79e09fb62fe0,Delicious food and timely delivery by Zomato. Will order again!,facebook,Zomato,positive,
+99619ae5-55af-4fa9-8fa6-674d82c4bc32,Using Swiggy makes my daily routine so much easier and pleasant.,instagram,Swiggy,positive,
+12d3c834-52eb-4ad1-9f01-842228121e17,worst customer service experience ever with @swiggy. rude agents.,reddit,Swiggy,negative,customer_service
+389a2cf9-695a-4309-b41b-ad61fb65d31b,Can you pay with crypto or UPI credit on Amazon?,reddit,Amazon,neutral,
+85ed93f3-759c-4c13-a279-568a227f4e50,Not what I expected from Flipkart. Looks fake and cheap.,facebook,Flipkart,negative,product_quality
+9216e4e6-a5f7-4c85-9304-5a5b405c613a,i demand my money back amazon! fraudulent refusal to refund.,instagram,Amazon,negative,refund_problems
+72ebf96e-8ade-44b8-a72b-83151c209b10,Outstanding customer support from Amazon. Solved my issue within 5 minutes!,reddit,Amazon,positive,
+c3536355-d2f1-4907-82ad-572ed9efbaf5,Not what I expected from Amazon. Looks fake and cheap.,reddit,Amazon,negative,product_quality
+e18ddd3b-3a7d-430b-88bd-85ee2e043b5e,Highly recommend Amazon for everyone! Great delivery and lovely packaging. #awesome,facebook,Amazon,positive,
+b9a856ed-8093-4448-903f-af4696828c51,everything arrived in perfect condition. thank you @phonepe!,twitter,PhonePe,positive,
+049b2c7d-6745-4879-9842-f9c4786a151e,Just had an amazing experience with @Swiggy. Thanks for the great service!!1! #happy,facebook,Swiggy,positive,
+2094d0cf-35a6-479b-9b32-61f050a3ae7b,Pleasantly surprised by how quickly PhonePe handled my inquiry.,facebook,PhonePe,positive,
+0ed9b1d8-ced3-46fb-bc9e-3aca753ca7aa,The item I received from Flipkart is broken and counterfeit.,instagram,Flipkart,negative,product_quality
+40a3237d-3bb4-4530-b501-75aac6da8b4e,is paytm servers down for anyone else right now?,twitter,Paytm,neutral,
+c8061845-ee1a-4cf9-894e-20a06ae9209b,Never got my delivery from @Paytm. Worst service ever.,facebook,Paytm,negative,delivery_issues
+d9278479-6b2b-4a0c-9b49-e1417cdb041e,Just comparing prices between Amazon and other apps.,instagram,Amazon,neutral,
+7a94d5d8-a87d-4a67-860e-a53e08767b28,Outstanding customer support from PhonePe. Solved my issue within 5 minutes!,reddit,PhonePe,positive,
+b1f47fd9-723b-4e31-9d53-44e25ce2dd46,How long does standard delivery take on PhonePe?,instagram,PhonePe,neutral,
+f58e3c86-1c3b-439d-b7e0-a3195b3382f6,Waiting for my scheduled delivery from Zomato.,instagram,Zomato,neutral,
+b2ed9434-7228-4c44-abac-1ac734d1c89d,Why is it impossible to get help from a representative at Zomato?,facebook,Zomato,negative,customer_service
+c1161743-595b-4836-acc3-d32468ad377e,"Great app, smooth UI and seamless checkout. Keep it up PhonePe.",twitter,PhonePe,positive,
+7c2b526a-ffc3-48e5-ba7a-f87d2f0e2b5e,Thank you Amazon for the quick resolution and courteous team 😊,facebook,Amazon,positive,
+aa607f7d-4763-46f2-a5fd-f677777d8691,Where is my money @Amazon? Refund not processed after return #scam,instagram,Amazon,negative,refund_problems
+2322d4a5-24b0-42ca-b961-bdf07d95cdfe,Just had an amazing experience with @Swiggy. Thanks for the great service! #happy,instagram,Swiggy,positive,
+2d61c542-2864-4253-ab44-85262ea30a7a,Using Amazon makes my daily routine so much easier and pleasant.,facebook,Amazon,positive,
+7f58d89a-d75d-4885-bab9-3e6ab48010a2,Tracking status says delivered but I received nothing from Zomato.,instagram,Zomato,negative,delivery_issues
+93fe38b7-9420-454e-b7a4-ce1a2c0b0fe7,"Great app, smooth UI and seamless checkout. Keep it up Amazon.",instagram,Amazon,positive,
+bd8b2040-dccb-450a-83b3-a6a8b6526878,App freezes every time I open the search tab on Paytm.,twitter,Paytm,negative,app_bugs
+c75e2a02-1264-4e1d-84e8-74e2945406d6,Kudos to the Amazon team for always delivering top quality products.,instagram,Amazon,positive,
+b8b8eb83-fc4a-425f-9148-1210c60d7993,tracking status says delivered but i received nothing from swiggy.,twitter,Swiggy,negative,delivery_issues
+560694d0-9bc9-4eb7-80f6-499c008f6592,can you pay with crypto or upi credit on paytm?,reddit,Paytm,neutral,
+a776f4a9-932f-4cb4-aba3-b6c73fa16316,Using Flipkart makes my daily routine so much easier and pleasant.,instagram,Flipkart,positive,
+ea09ee17-5ebc-4390-b141-17d31bbef556,Five stars for PhonePe! Loved the fast response and on-time order.,instagram,PhonePe,positive,
+23048f5c-7873-4759-a673-adea39771f53,Trying out Amazon for the first time this week.,facebook,Amazon,neutral,
+bcbdda23-5323-47bf-a258-f913790f13dd,I demand my money back PhonePe! Fraudulent refusal to refund.,instagram,PhonePe,negative,refund_problems
+8c7ad1a7-f535-42fb-9374-22736d911f9f,Fix your buggy and glitchy app @Swiggy! Buttons don't respond.,reddit,Swiggy,negative,app_bugs
+a5994268-eef0-4921-88a9-2b852a1be1ee,Love using Swiggy! Always reliable and fast. 💯,instagram,Swiggy,positive,
+976c43e3-af2d-49e3-b77f-e62b320f2783,Overcharged by Swiggy on checkout and support refuses to adjust the bill.,twitter,Swiggy,negative,billing_issues
+7e71a973-e9b4-4479-b71c-4858d015cf8f,"Best platform ever, @Flipkart you guys rock! Five stars! ✨",twitter,Flipkart,positive,
+c189a8dd-44c8-49a4-9049-1c016552bf1f,The packaging from @Paytm was completely crushed and leaking.,twitter,Paytm,negative,product_quality
+bf2cfa4a-644b-487b-8d79-5ae75d0d6cb0,"Best platform ever, @Flipkart you guys rock! Five stars! ✨",instagram,Flipkart,positive,
+9eba6923-b8ed-47a1-a75f-83aef498ae7c,"Returned the order 10 days ago, still no sign of refund from PhonePe.",twitter,PhonePe,negative,refund_problems
+d8d9549c-62c9-4224-a0cd-aa33ddef629b,"Very good experience with Flipkart. Easy to use, fast refunds when requested.",reddit,Flipkart,positive,
+73d38390-71c6-4a5b-88be-e68022deb5b3,Love using Flipkart!!1! Always reliable and fast. 💯,instagram,Flipkart,positive,
+fcff9bea-2f48-433f-8ff0-f46fa2814936,Support representative closed my ticket without resolving anything on Flipkart.,instagram,Flipkart,negative,customer_service
+15804614-b1d7-46fe-b2a0-4e7a476c3cdf,The packaging from @Amazon was completely crushed and leaking.,twitter,Amazon,negative,product_quality
+cab101da-03ad-49d5-92f8-075fe03f5a3d,Just had an amazing experience with @PhonePe. Thanks for the great service! #happy,facebook,PhonePe,positive,
+f30c61ab-ee77-4f2a-92bc-ec456df658c8,Five stars for Amazon! Loved the fast response and on-time order.,facebook,Amazon,positive,
+8627fd3c-4d0a-4a2d-ad40-331297ee0bd2,Where is my money @Zomato? Refund not processed after return #scam,reddit,Zomato,negative,refund_problems
+6a4131ce-0c1f-431d-833f-2e252874b553,Received a spoiled item from PhonePe. Horrible quality check.,facebook,PhonePe,negative,product_quality
+f9946e26-bd5f-4997-9ea2-eff544c6ef8b,"Great app, smooth UI and seamless checkout. Keep it up Paytm.",facebook,Paytm,positive,
+c351464e-71e3-46e5-b71c-84fbfa9735e9,The PhonePe app keeps crashing constantly when I try to pay.,reddit,PhonePe,negative,app_bugs
+5f0cddc5-fda2-4a9d-9d07-a2747f4ddf62,I demand my money back PhonePe! Fraudulent refusal to refund.,instagram,PhonePe,negative,refund_problems
+d4b07ba1-a38c-45a7-be6a-a39e43c98937,Outstanding customer support from Amazon. Solved my issue within 5 minutes!,instagram,Amazon,positive,
+798c0598-b053-4d69-8159-3f973b6d8a8d,Amazon charged my account twice for the exact same order.,facebook,Amazon,negative,billing_issues
+a6596d70-cd30-4d02-9b10-2e5f92672954,love using swiggy! always reliable and fast. 💯,twitter,Swiggy,positive,
+5793d272-23eb-4715-93d2-b3099aa98ef6,Can you pay with crypto or UPI credit on Flipkart?,reddit,Flipkart,neutral,
+1cdf1e9f-769d-41ba-b033-83e0e6520406,Absolutely fantastic service and prompt support from Zomato today.,instagram,Zomato,positive,
+876e4107-0d23-414a-9ede-6c3c737a727b,Using Amazon makes my daily routine so much easier and pleasant.,facebook,Amazon,positive,
+28563eea-f133-4999-bfcb-f1793faa3d02,Just had an amazing experience with @Zomato. Thanks for the great service! #happy,instagram,Zomato,positive,
+2ddcb537-6096-4a95-934d-ef61e96197db,Love using PhonePe! Always reliable and fast. 💯,reddit,PhonePe,positive,
+9922687c-f6f5-4e05-8356-6ca6444d319b,Does anyone know how to change payment method on Zomato?,instagram,Zomato,neutral,
+6193266b-9cce-4bd7-aa7a-4d4b1f934957,Five stars for Paytm! Loved the fast response and on-time order.,facebook,Paytm,positive,
+388c8eea-5e64-4790-aa87-f8e81913ce3b,"great app, smooth ui and seamless checkout. keep it up phonepe.",reddit,PhonePe,positive,
+8481b8df-5f39-4c23-90d7-22823a5a7390,thank you paytm for the quick resolution and courteous team 😊,reddit,Paytm,positive,
+6d77fe78-8eb8-4f72-9bd0-56888ba02952,Wondering if Amazon delivers to rural postal codes.,reddit,Amazon,neutral,
+41d3b1f4-056b-48b8-950f-6a1f88a4b38a,Just downloaded the latest Paytm app update.,facebook,Paytm,neutral,
+b76a06fd-f6fe-49be-9221-2eb1e8f54488,Absolutely fantastic service and prompt support from Zomato today.,facebook,Zomato,positive,
+cecd0ab7-7874-4acf-bf03-6ed09b5b50a2,@flipkart please check your direct messages regarding my ticket.,facebook,Flipkart,neutral,
+68ae3abb-dea1-4f9a-be4c-bf1d33fb37a6,Fix your buggy and glitchy app @Amazon! Buttons don't respond.,facebook,Amazon,negative,app_bugs
+e7fb7f3a-c5aa-4b7b-8a36-df8ecf71e758,Saw an advertisement for Zomato on YouTube yesterday.,reddit,Zomato,neutral,
+5af2b5e3-08dc-4bfb-9764-787d4e994084,what are good alternative platforms to flipkart?,reddit,Flipkart,neutral,
+4396cd4f-2707-4398-8136-1aeaf8d2c533,Waited 4 hours for my food delivery from @PhonePe. Disgraceful delay.,instagram,PhonePe,negative,delivery_issues
+d692ee2c-478e-48f0-aa9d-be8a05c3c924,"great app, smooth ui and seamless checkout. keep it up flipkart.",instagram,Flipkart,positive,
+a6ba4a4b-ab0c-4c63-81f8-c8148c351a4d,Flipkart website is completely broken on checkout page.,instagram,Flipkart,negative,app_bugs
+2223ecb9-a2f6-4d8c-acdf-de4bb753aac0,Fix your buggy and glitchy app @Amazon! Buttons don't respond.,reddit,Amazon,negative,app_bugs
+9d6d800e-1dc9-4c3f-b522-da0a0dbd5d63,Just downloaded the latest Amazon app update.,reddit,Amazon,neutral,
+dc4a2482-b73d-428e-8926-176fed4dc26d,@Amazon please check your direct messages regarding my ticket.,twitter,Amazon,neutral,
+ec52dc6c-0525-4d3f-9cca-6537d92f5c79,Why is it impossible to get help from a representative at Swiggy?,reddit,Swiggy,negative,customer_service
+27ac60e5-aa36-45be-8669-528e6987d74a,Trying out Flipkart for the first time this week.,facebook,Flipkart,neutral,
+2cff693d-b5f7-477b-883f-8bf06d6fdbc9,Support representative closed my ticket without resolving anything on Amazon.,reddit,Amazon,negative,customer_service
+3a300baf-8e01-4758-9b04-a5ebe74506b2,"The automated bot on Swiggy is useless, can never speak to a human.",twitter,Swiggy,negative,customer_service
+6ec64004-96d2-42ac-a692-5a5dd06e1d66,Terrible quality from Paytm. Defective product right out of the box.,twitter,Paytm,negative,product_quality
+7a0e5e14-4d33-478c-b3a4-7ba402c1e03f,Refund marked processed but not reflecting in my bank account from Swiggy.,facebook,Swiggy,negative,refund_problems
+a2146341-f77c-4108-800f-a7d81a9e27e9,Has anyone tried the new premium subscription on Zomato?,reddit,Zomato,neutral,
+07188f9b-bad3-432a-b4a8-d85b96d38c13,Five stars for Flipkart! Loved the fast response and on-time order.,twitter,Flipkart,positive,
+954838f6-4de4-472a-813b-7fea0c3bb47d,Terrible quality from PhonePe. Defective product right out of the box.,twitter,PhonePe,negative,product_quality
+b7480f5b-0c24-41d6-a35b-049b6d7a5076,Amazon is the absolute best! Delivery was super quick. https://example.com/xyz,reddit,Amazon,positive,
+a836e6c3-0ec7-43fb-b155-7e916eff014c,Highly recommend Zomato for everyone! Great delivery and lovely packaging. #awesome,reddit,Zomato,positive,
+9cb50136-6422-4d60-a17a-cf9b3fbd857b,Wondering if Zomato delivers to rural postal codes.,instagram,Zomato,neutral,
+36223332-327e-4bac-b2bd-41bc72e89266,five stars for swiggy!!1! loved the fast response and on-time order.,twitter,Swiggy,positive,
+8d01a2d4-addb-45db-94a6-72b64d681e6e,Flipkart arbitrarily rejected my valid return and refund claim.,instagram,Flipkart,negative,refund_problems
+1ff9f686-646b-4025-8875-f3a6f8822dab,Can you pay with crypto or UPI credit on Amazon?,twitter,Amazon,neutral,
+f582c087-6c4e-43de-a5f7-eff735698522,What are good alternative platforms to Amazon?,instagram,Amazon,neutral,
+c4f3051d-f88b-4de2-95c1-d5b8ea6107fd,Why did my subscription for Paytm auto-renew after I cancelled?,facebook,Paytm,negative,billing_issues
+03df1c82-73dc-4683-91e3-c30169345eb9,Loved the discount and lightning fast shipping on Swiggy today! 🎉,reddit,Swiggy,positive,
+fd6887cc-3b0c-4099-9ef0-4bbe97e9c3e1,Support representative closed my ticket without resolving anything on Swiggy.,facebook,Swiggy,negative,customer_service
+f5581549-e99a-404b-8ea1-72c92b439071,"The automated bot on Paytm is useless, can never speak to a human.",facebook,Paytm,negative,customer_service
+2531ead4-1a0e-4198-9110-7ad6b3232657,"Can't log into my Flipkart account, getting internal error 500.",instagram,Flipkart,negative,app_bugs
+7e26bf79-0f48-4e32-88d1-82b0ebe7df7b,Where is my money @PhonePe? Refund not processed after return #scam,reddit,PhonePe,negative,refund_problems
+7760ed30-ae9e-41be-8857-9ca8b8f13e93,Why did my subscription for Swiggy auto-renew after I cancelled?,facebook,Swiggy,negative,billing_issues
+424e6fef-cc84-48e8-89a4-697512492020,Support representative closed my ticket without resolving anything on PhonePe.,instagram,PhonePe,negative,customer_service
+8593a578-f459-40f1-bfc8-6be9a350bdca,Saw an advertisement for Zomato on YouTube yesterday.,facebook,Zomato,neutral,
+710011a7-584a-4ebe-a777-8db17a7baa8b,PhonePe customer support is totally unresponsive and useless.,instagram,PhonePe,negative,customer_service
+95a98f41-8af4-4d3a-a3d4-a8a2864740cf,Where is my money @PhonePe? Refund not processed after return #scam,instagram,PhonePe,negative,refund_problems
+4caa32f0-2b6e-412a-bec1-7df99b7ef305,Super impressed with @Swiggy! The driver was polite and order arrived early.,reddit,Swiggy,positive,
+caba7c95-e06f-466d-8343-70c6e8565782,Does anyone know how to change payment method on Amazon?,reddit,Amazon,neutral,
+65818442-0f53-4c93-b7a2-215cee7b8288,The packaging from @Amazon was completely crushed and leaking.,reddit,Amazon,negative,product_quality
+a0c24fc9-f4b5-4c95-9b48-3848fedfe29d,Wondering if Zomato delivers to rural postal codes.,twitter,Zomato,neutral,
+23e34848-ac61-40eb-ad41-4c0a298c8d8a,"Great app, smooth UI and seamless checkout. Keep it up Zomato.",reddit,Zomato,positive,
+2f82e777-0306-44de-a990-cee1e4b9c2cb,Zomato arbitrarily rejected my valid return and refund claim.,facebook,Zomato,negative,refund_problems
+5f90e70e-6d81-4c1e-a634-4c2cdddc8368,@Flipkart please check your direct messages regarding my ticket.,instagram,Flipkart,neutral,
+308f1e47-d7c9-4c84-a815-599c9365bbaa,Fix your buggy and glitchy app @Amazon! Buttons don't respond.,instagram,Amazon,negative,app_bugs
+6ac446ee-86c6-43ab-8cee-7ca32fb53231,"Late delivery again, Zomato is so inconsistent and delayed.",twitter,Zomato,negative,delivery_issues
+6f49164d-882a-4ae9-9c57-cbdca6e3b74a,Love using Swiggy! Always reliable and fast. 💯,instagram,Swiggy,positive,
+52730a0f-bad2-4862-ae84-fb3584c5dca4,Five stars for Paytm! Loved the fast response and on-time order.,facebook,Paytm,positive,
+df8eec11-c5d0-494a-9acc-7bda610c8c60,wondering if flipkart delivers to rural postal codes.,twitter,Flipkart,neutral,
+7bf36d67-93eb-41ed-97d9-1edadc6a4201,Trying out PhonePe for the first time this week.,facebook,PhonePe,neutral,
+51ad5fd7-696e-4fc7-ba71-2b1d71c6d6a9,Thank you Zomato for the quick resolution and courteous team 😊,facebook,Zomato,positive,
+db511dc7-a6a9-429a-a462-97e81e041c22,Received a spoiled item from Amazon. Horrible quality check.,instagram,Amazon,negative,product_quality
+287bb461-f28e-47d9-9a78-9a1ab97b346e,Highly recommend PhonePe for everyone! Great delivery and lovely packaging. #awesome,instagram,PhonePe,positive,
+2c84797c-bb52-4908-a3c8-c2c677e506d1,"Very good experience with Paytm. Easy to use, fast refunds when requested.",facebook,Paytm,positive,
+7c728cee-a543-48b9-93d6-a54c181c88ba,Amazon is the absolute best! Delivery was super quick. https://example.com/xyz,twitter,Amazon,positive,
+e7bd2a68-f46a-43e8-885f-26a044b76175,Seamless payment experience on PhonePe. Really happy with the new update.,facebook,PhonePe,positive,
+952a6648-3a96-4f0b-a526-542c9d407321,Payment failed but the money was deducted from my bank by Amazon.,facebook,Amazon,negative,billing_issues
+3cec1fe2-bb84-4e09-a539-79aa5aef1201,Trying out Paytm for the first time this week.,instagram,Paytm,neutral,
+16e6c452-59a8-4aca-b856-cb07c5f39dee,Waited 4 hours for my food delivery from @Amazon. Disgraceful delay.,facebook,Amazon,negative,delivery_issues
+ef233667-4164-4712-81a6-863a5ee06691,Outstanding customer support from Swiggy. Solved my issue within 5 minutes!,instagram,Swiggy,positive,
+677b3ac7-2df4-4b43-b819-366f98c9c16e,Seamless payment experience on Zomato. Really happy with the new update.,instagram,Zomato,positive,
+58f619cb-4aec-4831-b1bc-f3ad62d45a77,The item I received from Amazon is broken and counterfeit.,reddit,Amazon,negative,product_quality
+d138831e-70d2-4d1b-86df-b6afac1925b8,My billing invoice from Swiggy has duplicate charges and incorrect tax.,instagram,Swiggy,negative,billing_issues
+dea33b74-5725-4157-ad0c-8ab7ebf34648,Support representative closed my ticket without resolving anything on Amazon.,facebook,Amazon,negative,customer_service
+224144be-4187-4c1b-a01e-21624773c86f,"Great app, smooth UI and seamless checkout. Keep it up Amazon.",twitter,Amazon,positive,
+b7cea4ab-98ba-4c98-9b40-c05493a4ff74,Just had an amazing experience with @Zomato. Thanks for the great service! #happy,facebook,Zomato,positive,
+7c2be9bc-8725-4fb9-b6d5-10bd7a242c6a,Using Zomato makes my daily routine so much easier and pleasant.,reddit,Zomato,positive,
+4d41ec65-7531-41e8-a325-639aca585b06,Just downloaded the latest Zomato app update.,instagram,Zomato,neutral,
+d64dfcd4-8e5d-4693-a694-bf19bf0a9c87,Overcharged by Flipkart on checkout and support refuses to adjust the bill.,twitter,Flipkart,negative,billing_issues
+5cb830b4-0533-4f89-be1e-07e25359b9d3,Has anyone tried the new premium subscription on PhonePe?,reddit,PhonePe,neutral,
+78ab87df-9758-4e17-a6ed-476a7e053f82,Why did my subscription for Paytm auto-renew after I cancelled?,instagram,Paytm,negative,billing_issues
+48dc3c37-c4d5-41f9-9d2b-f88c628095bb,Love using Swiggy! Always reliable and fast. 💯,facebook,Swiggy,positive,
+b81381c0-b993-4c32-bd02-e6a2d1457c53,Where is my money @PhonePe? Refund not processed after return #scam,instagram,PhonePe,negative,refund_problems
+6e03c999-b3b1-44cf-8615-2793aa5c6efb,Can you pay with crypto or UPI credit on Zomato?,instagram,Zomato,neutral,
+98cfe26a-ca69-4953-b982-6bbc131590f9,Love using PhonePe! Always reliable and fast. 💯,twitter,PhonePe,positive,
+b79789a0-daa4-413c-8d1f-c851a714f1a4,Waited 4 hours for my food delivery from @Zomato. Disgraceful delay.,instagram,Zomato,negative,delivery_issues
+be40ecb5-844b-43c2-b98e-dbcf9e25f6cb,Critical bug in Amazon app: cart empties itself on checkout.,instagram,Amazon,negative,app_bugs
+1d95c15f-8ad1-406c-98e8-10b615742989,Just had an amazing experience with @Zomato. Thanks for the great service! #happy,reddit,Zomato,positive,
+a4acd2fa-dc93-4cbe-95b5-110d3824ae92,Highly recommend Zomato for everyone!!1! Great delivery and lovely packaging. #awesome,twitter,Zomato,positive,
+7bb1df3e-09db-4847-b7e7-c4c9a4f73ffd,Notice: Amazon scheduled maintenance tonight at midnight.,facebook,Amazon,neutral,
+87e3b492-a844-45a5-b203-234428c4dc3c,Waited 4 hours for my food delivery from @Swiggy. Disgraceful delay.,facebook,Swiggy,negative,delivery_issues
+689b1256-1580-4fb7-a58e-fa69e1665ce9,Just comparing prices between PhonePe and other apps.,reddit,PhonePe,neutral,
+e9fe5b9e-df18-400a-8481-aa96d9451ad5,Love using Paytm! Always reliable and fast. 💯,instagram,Paytm,positive,
+8660a2eb-e0e6-446c-8bbb-f792a5290c0d,still waiting for my pending refund from swiggy after 3 weeks.,facebook,Swiggy,negative,refund_problems
+180fe3ba-f281-4ca6-89b6-ab3c50066299,Highly recommend Paytm for everyone! Great delivery and lovely packaging. #awesome,reddit,Paytm,positive,
+7f9a3c1a-d23f-4f0c-b00f-06bbed2e14c0,Kudos to the Zomato team for always delivering top quality products.,instagram,Zomato,positive,
+6014dafe-5956-4d27-906d-47981a46c72b,Loved the discount and lightning fast shipping on Zomato today! 🎉,twitter,Zomato,positive,
+04952ad5-6f9e-4e52-a6c8-193a5ea02bcd,can you pay with crypto or upi credit on phonepe?,instagram,PhonePe,neutral,
+d62a2a8d-f493-42e2-84d5-03187502d217,Notice: Zomato scheduled maintenance tonight at midnight.,reddit,Zomato,neutral,
+e1b17446-4454-44af-aa2a-f0b1660175e1,"Great app, smooth UI and seamless checkout. Keep it up PhonePe.",instagram,PhonePe,positive,
+816115a6-fc47-42b0-9be5-dd868ed6ff0a,Trying out Swiggy for the first time this week.,reddit,Swiggy,neutral,
+43d5a270-b63c-462c-a314-629d783f70f5,"The automated bot on Swiggy is useless, can never speak to a human.",reddit,Swiggy,negative,customer_service
+5974846b-ed73-4095-a249-6b28dd1db982,Wondering if Paytm delivers to rural postal codes.,facebook,Paytm,neutral,
+7059573b-3d1a-438c-ba34-4adb5e8a264a,Terrible quality from PhonePe. Defective product right out of the box.,instagram,PhonePe,negative,product_quality
+872f6926-44d7-4f5c-806a-01d5923b5f91,Absolutely fantastic service and prompt support from Paytm today.,instagram,Paytm,positive,
+af4ed5d7-d595-45e1-99d1-c7de3f086954,"Very good experience with Amazon. Easy to use, fast refunds when requested.",facebook,Amazon,positive,
+3d04d125-0b44-41a6-93ce-e643cd62f2f1,Zomato charged my account twice for the exact same order.,facebook,Zomato,negative,billing_issues
+80b05422-8727-48d0-b1e8-9c875edeba0a,Thank you Paytm for the quick resolution and courteous team 😊,twitter,Paytm,positive,
+18ee66c3-bfbe-4a6a-b6c1-f707c501e3f2,The item I received from Paytm is broken and counterfeit.,facebook,Paytm,negative,product_quality
+0e1c6b6f-9910-4793-bf71-800215eba05a,Amazon charged my account twice for the exact same order.,facebook,Amazon,negative,billing_issues
+f244a888-2723-4cfc-8cb2-fe9dd194b0f2,Waiting for my scheduled delivery from Flipkart.,reddit,Flipkart,neutral,
+67a70011-6338-4ccc-8863-6b3e8cbf9fff,Why did my subscription for Paytm auto-renew after I cancelled?,twitter,Paytm,negative,billing_issues
+5fcd04b8-045e-4aaf-8eab-aee68cf3aae9,Package arrived completely damaged due to careless handling by PhonePe.,twitter,PhonePe,negative,delivery_issues
+40917c8d-7cd2-42d2-beb6-697bc38fc461,"Returned the order 10 days ago, still no sign of refund from Zomato.",instagram,Zomato,negative,refund_problems
+4046dd98-8856-406d-9159-00b3f4a633ca,Has anyone tried the new premium subscription on Paytm?,instagram,Paytm,neutral,
+a0e4b15d-dc2f-4867-8c52-cc49a1b6b83d,I think Paytm changed their user interface today.,twitter,Paytm,neutral,
+5fbf341c-40cb-40cc-a2d5-be4ac564979b,Using Amazon makes my daily routine so much easier and pleasant.,reddit,Amazon,positive,
+1d149662-d2db-4ba7-b44c-69ff2bb82a34,Is Swiggy servers down for anyone else right now?,twitter,Swiggy,neutral,
+21e9fa4b-8ff1-4a93-9ee0-b922f5fee8c7,Pleasantly surprised by how quickly Swiggy handled my inquiry.,twitter,Swiggy,positive,
+df4cfc22-c222-4b6a-8fe6-ca8e1e5cfa2a,Waited 4 hours for my food delivery from @PhonePe. Disgraceful delay.,facebook,PhonePe,negative,delivery_issues
+1be77f52-7f35-4781-9647-9fe64f8a6302,"Can't log into my PhonePe account, getting internal error 500.",twitter,PhonePe,negative,app_bugs
+10b382fa-a7ec-4d61-a0fe-a6c36f14cf9f,Super impressed with @Flipkart! The driver was polite and order arrived early.,instagram,Flipkart,positive,
+81b9141c-ba9b-4823-a157-784558fb7691,critical bug in phonepe app: cart empties itself on checkout.,reddit,PhonePe,negative,app_bugs
+a8f2494a-60b9-4056-8f5e-1fc1f2743fdc,Does anyone know how to change payment method on Paytm?,instagram,Paytm,neutral,
+c5660ddb-ffe0-4e5b-869d-384ca2c4e9ae,Worst customer service experience ever with @Amazon. Rude agents.,reddit,Amazon,negative,customer_service
+4c9740ae-b1a8-4cbc-a9ca-92b79e82a383,can you pay with crypto or upi credit on swiggy?,reddit,Swiggy,neutral,
+236153ba-fb8c-4557-8863-7363c25056ce,Highly recommend PhonePe for everyone! Great delivery and lovely packaging. #awesome,twitter,PhonePe,positive,
+041384ae-c5ec-48dd-bb0a-cd2d15735374,Waiting for my scheduled delivery from Amazon.,twitter,Amazon,neutral,
+46e29280-d780-47e0-824b-a5831b31e026,The packaging from @Zomato was completely crushed and leaking.,twitter,Zomato,negative,product_quality
+a13a99e3-a664-490b-a5c1-827e7d862c47,"Returned the order 10 days ago, still no sign of refund from Zomato.",twitter,Zomato,negative,refund_problems
+2308d251-d729-4fac-a80d-7acec98e82e7,Amazon is the absolute best! Delivery was super quick. https://example.com/xyz,twitter,Amazon,positive,
+19a5600d-d89e-49e2-95bd-16c169a8049c,"Great delivery by @Flipkart, loved it! Super fast and reliable. #satisfied",facebook,Flipkart,positive,
+a3f12ae5-533d-4316-9323-8e81b996873e,How long does standard delivery take on Amazon?,reddit,Amazon,neutral,
+e3e695fe-144a-4305-ae35-a77adc056bb8,Still waiting for my pending refund from Amazon after 3 weeks.,twitter,Amazon,negative,refund_problems
+a8c59436-a84d-4017-8b15-aa45c95eb45e,pleasantly surprised by how quickly paytm handled my inquiry.,facebook,Paytm,positive,
+4744a752-f03d-4ff2-b8d9-0e3eea6891e9,Can you pay with crypto or UPI credit on Zomato?,twitter,Zomato,neutral,
+62b27980-8031-4a98-81f5-65287747528e,PhonePe arbitrarily rejected my valid return and refund claim.,facebook,PhonePe,negative,refund_problems
+9c517a93-1fe2-4565-a722-c80eefb893f2,"Late delivery again, Paytm is so inconsistent and delayed.",facebook,Paytm,negative,delivery_issues
+17f53488-1813-43f6-b14b-0f68e55cdadf,"Very good experience with PhonePe. Easy to use, fast refunds when requested.",reddit,PhonePe,positive,
+90abd95b-6283-4bfe-bcb1-2e2afaadd1f3,Thank you Paytm for the quick resolution and courteous team 😊,facebook,Paytm,positive,
+f9e69eab-9761-411d-9069-b0d092877217,Waiting for my scheduled delivery from Flipkart.,instagram,Flipkart,neutral,
+54f3998f-d0b6-416e-9c1e-cdd318742766,"Very good experience with Paytm. Easy to use, fast refunds when requested.",twitter,Paytm,positive,
+c822d6be-370d-4b6c-ad5f-3a406083fd11,Highly recommend Amazon for everyone! Great delivery and lovely packaging. #awesome,facebook,Amazon,positive,
+f1b4e68e-3915-4002-80d6-32fd5145d485,"Returned the order 10 days ago, still no sign of refund from Swiggy.",instagram,Swiggy,negative,refund_problems
+51fbadad-d328-42b4-8121-179f6581bbdc,Seamless payment experience on Flipkart. Really happy with the new update.,facebook,Flipkart,positive,
+7a0432ee-002c-46d2-84cc-49a512448f9e,Loved the discount and lightning fast shipping on PhonePe today! 🎉,instagram,PhonePe,positive,
+8d83d155-7ea0-48e5-93fb-48c9c1463890,Been stuck on hold for 45 mins with Flipkart phone support.,twitter,Flipkart,negative,customer_service
+bec22fa2-a32c-4f6e-bd54-5a80999d3068,I think Swiggy changed their user interface today.,facebook,Swiggy,neutral,
+7666dca3-f2a4-4e4a-adfb-cb6aea821fc8,Has anyone tried the new premium subscription on Zomato?,facebook,Zomato,neutral,
+136cc927-b81e-4488-9c2f-b38decb8e483,Using PhonePe makes my daily routine so much easier and pleasant.,twitter,PhonePe,positive,
+8010e1b5-f6fe-47f3-a73b-f7362af01c6e,just comparing prices between swiggy and other apps.,twitter,Swiggy,neutral,
+7b014008-030a-4fea-a02d-01c5f750d19d,Has anyone tried the new premium subscription on Amazon?,reddit,Amazon,neutral,
+7705a439-0dcc-461c-ba2a-4579daffb54f,How long does standard delivery take on PhonePe?,reddit,PhonePe,neutral,
+4484a4b8-ce57-42b4-a743-8bb7f2d45337,"Great app, smooth UI and seamless checkout. Keep it up PhonePe.",facebook,PhonePe,positive,
+370760cd-fb96-4799-95f5-dd773cfd7b3b,"Best platform ever, @PhonePe you guys rock! Five stars! ✨",twitter,PhonePe,positive,
+dadf3388-91a2-46c8-a998-2f6ed3f57502,Can you pay with crypto or UPI credit on Flipkart?,instagram,Flipkart,neutral,
+dd510afa-103e-4e5a-936c-06a461c36520,is flipkart servers down for anyone else right now?,reddit,Flipkart,neutral,
+93c8cc79-4465-4d59-8316-a3251052c8fa,"best platform ever, @swiggy you guys rock! five stars! ✨",facebook,Swiggy,positive,
+d75613fc-17db-4b77-8e9b-968f315a508e,Why did my subscription for Swiggy auto-renew after I cancelled?,reddit,Swiggy,negative,billing_issues
+08884d78-616b-491c-8486-4282f04d5169,Wondering if Amazon delivers to rural postal codes.,facebook,Amazon,neutral,
+c33169a0-46ab-469c-8fb9-4aeee672e353,Is Zomato servers down for anyone else right now?,reddit,Zomato,neutral,
+6481b125-7426-412c-9e9c-e000bd63be41,"Best platform ever, @Swiggy you guys rock! Five stars! ✨",reddit,Swiggy,positive,
+fb3d5f63-427f-418e-a071-cbe6bae56e49,The Zomato app keeps crashing constantly when I try to pay.,reddit,Zomato,negative,app_bugs
+9fddc12c-39bf-4356-8302-7ed07a022eee,Thank you Amazon for the quick resolution and courteous team 😊,facebook,Amazon,positive,
+56e6221a-9c1e-400a-a43d-a6712eaf67fa,Trying out Amazon for the first time this week.,instagram,Amazon,neutral,
+a4b68842-5532-46d4-9311-b151544dcd1c,Waiting for my scheduled delivery from Zomato.,reddit,Zomato,neutral,
+e9d62ca0-42f6-4245-abc3-93936a57c100,I think Flipkart changed their user interface today.,twitter,Flipkart,neutral,
+8c1f7572-b40b-4123-9e25-35d4e30efad4,Does anyone know how to change payment method on Amazon?,instagram,Amazon,neutral,
+ef54c752-90af-4548-bcb6-55648f38dfd5,Notice: Zomato scheduled maintenance tonight at midnight.,twitter,Zomato,neutral,
+0893f338-09ad-4ccd-ac2a-6320dc5da7ce,Kudos to the Amazon team for always delivering top quality products.,instagram,Amazon,positive,
+ffabdcd1-9d99-4e0e-9695-dc169959c30e,@Flipkart please check your direct messages regarding my ticket.,reddit,Flipkart,neutral,
+42478bf8-51ed-475f-b308-01da64fa5c44,Received a spoiled item from PhonePe. Horrible quality check.,facebook,PhonePe,negative,product_quality
+f4700534-01d7-4ce3-a294-9c7002c89487,Trying out Amazon for the first time this week.,instagram,Amazon,neutral,
+283a9fa5-4c3a-42d2-ac06-43e2a84c1a3c,"Great app, smooth UI and seamless checkout. Keep it up PhonePe.",reddit,PhonePe,positive,
+35660dae-db59-4dff-8548-8b422e3c628a,App freezes every time I open the search tab on PhonePe.,twitter,PhonePe,negative,app_bugs
+25e5acee-aac3-4f24-a95c-8f006ff728cb,"Returned the order 10 days ago, still no sign of refund from PhonePe.",twitter,PhonePe,negative,refund_problems
+7d4d7ec1-43c7-4612-ac35-7a4760195d10,"Food from Paytm was cold, stale, and smelled awful.",reddit,Paytm,negative,product_quality
+2264421e-41c3-4b4b-b27d-7d704eef778a,Trying out Paytm for the first time this week.,twitter,Paytm,neutral,
+0bf5e60a-4651-41df-bb04-1e6f540e5c24,Pleasantly surprised by how quickly Amazon handled my inquiry.,facebook,Amazon,positive,
+3efe7516-2922-4767-a238-6695f1d8d9f6,Loved the discount and lightning fast shipping on Paytm today! 🎉,twitter,Paytm,positive,
+88c14371-4149-4a53-a1a9-847c9756ee6c,"Great delivery by @Flipkart, loved it! Super fast and reliable. #satisfied",facebook,Flipkart,positive,
+56684f0a-d21e-4750-8e18-336ae4d79fd2,Fix your buggy and glitchy app @Swiggy! Buttons don't respond.,facebook,Swiggy,negative,app_bugs
+b8ddf455-8177-4549-a8c1-805ac45b5882,Overcharged by Zomato on checkout and support refuses to adjust the bill.,instagram,Zomato,negative,billing_issues
+e95d5254-0191-489d-b15d-ef6b0c10490f,Using PhonePe makes my daily routine so much easier and pleasant.,reddit,PhonePe,positive,
+0f6f7cd6-6b92-4e0b-92c0-b6e2ac5a0a2b,Still waiting for my pending refund from Zomato after 3 weeks.,instagram,Zomato,negative,refund_problems
+22672a02-fa06-4c56-9f04-ea7436931edd,The packaging from @Flipkart was completely crushed and leaking.,twitter,Flipkart,negative,product_quality
+5c753efe-aacd-4343-acf7-1e34f6d3a26c,I think Paytm changed their user interface today.,twitter,Paytm,neutral,
+d1ce23ef-a1e1-43ef-ae0e-11d792d99442,fix your buggy and glitchy app @flipkart! buttons don't respond.,reddit,Flipkart,negative,app_bugs
+370c010d-0216-43ea-84c7-266d0c781b62,Everything arrived in perfect condition. Thank you @PhonePe!,twitter,PhonePe,positive,
+62cc170e-9806-4f74-ae75-8e7d279ada8d,Received a spoiled item from Swiggy. Horrible quality check.,twitter,Swiggy,negative,product_quality
+b858d7c3-4a5b-444b-b015-67cb035b24e1,The item I received from PhonePe is broken and counterfeit.,facebook,PhonePe,negative,product_quality
+e4951237-6eaa-4f13-9e52-3d6d9135bdb6,Still waiting for my pending refund from PhonePe after 3 weeks.,instagram,PhonePe,negative,refund_problems
+885b1785-1bee-439d-8070-0cf50e54ef6e,My billing invoice from Amazon has duplicate charges and incorrect tax.,facebook,Amazon,negative,billing_issues
+6d13bf9e-29ee-47ac-852e-55df02d3fab3,Just had an amazing experience with @Amazon. Thanks for the great service! #happy,twitter,Amazon,positive,
+10030cd5-4d25-4141-aa46-ca94755b984f,Is PhonePe servers down for anyone else right now?,facebook,PhonePe,neutral,
+e96c1225-e393-4e5e-a9c2-4fe467900b08,Notice: Flipkart scheduled maintenance tonight at midnight.,reddit,Flipkart,neutral,
+0336151d-325b-4228-b450-5ae03a051cd3,"very good experience with phonepe. easy to use, fast refunds when requested.",twitter,PhonePe,positive,
+5b4e936d-b8c5-449d-8763-3bdfd2cc72a4,App freezes every time I open the search tab on PhonePe.,facebook,PhonePe,negative,app_bugs
+b55c4582-08ab-4352-ab53-0bcfbefa2525,Super impressed with @Zomato! The driver was polite and order arrived early.,instagram,Zomato,positive,
+a940b434-eeb7-4333-95b1-68c3e23b2f33,Can you pay with crypto or UPI credit on PhonePe?,twitter,PhonePe,neutral,
+c4030f3d-e9a0-47e9-942e-c72894972ac5,Has anyone tried the new premium subscription on Flipkart?,instagram,Flipkart,neutral,
+88a62479-eb8b-4588-bd81-4ec5bfa60a79,Waiting for my scheduled delivery from Amazon.,facebook,Amazon,neutral,
+e9ccbc22-caf0-4929-ac90-2d957a3db4a8,"Can't log into my Swiggy account, getting internal error 500.",twitter,Swiggy,negative,app_bugs
+58b42de3-ef54-47f6-9efa-a62f22835764,"Returned the order 10 days ago, still no sign of refund from Swiggy.",instagram,Swiggy,negative,refund_problems
+74d87da6-2db5-4e2d-8df5-e6297e1e2b8e,Been stuck on hold for 45 mins with Flipkart phone support.,instagram,Flipkart,negative,customer_service
+f40973e4-9aac-4780-ac28-c8b0d23c3d28,My order from Swiggy is 3 days late! 😡 #fail #terrible,instagram,Swiggy,negative,delivery_issues
+e06168f5-49e5-48f4-b000-8e2112623ae4,The PhonePe app keeps crashing constantly when I try to pay.,twitter,PhonePe,negative,app_bugs
+57988564-4c15-4081-ab19-3e428610a1f0,Seamless payment experience on PhonePe. Really happy with the new update.,facebook,PhonePe,positive,
+4d9ff168-8ce6-4eca-b465-d455cc334174,Has anyone tried the new premium subscription on Zomato?,instagram,Zomato,neutral,
+b0abdc51-15e2-4aa4-b339-81c257128e93,Zomato website is completely broken on checkout page.,twitter,Zomato,negative,app_bugs
+8c4d904c-3013-4d82-b82f-14485a9b3137,Super impressed with @Amazon!!1! The driver was polite and order arrived early.,reddit,Amazon,positive,
+2d23bef2-cca6-492c-af32-36e14533bbfb,Super impressed with @PhonePe! The driver was polite and order arrived early.,twitter,PhonePe,positive,
+cdeadb01-d20f-4c06-a3a6-666fbcffc336,Using Swiggy makes my daily routine so much easier and pleasant.,instagram,Swiggy,positive,
+187e778d-1176-41b3-8582-068778b98ba1,Thank you Zomato for the quick resolution and courteous team 😊,reddit,Zomato,positive,
+b0f7ad60-c41d-4291-b0a7-9aceec05fb3b,Kudos to the Zomato team for always delivering top quality products.,facebook,Zomato,positive,
+e3c5d2a9-958c-4ead-bfe1-e4610f61c58c,Just comparing prices between Flipkart and other apps.,twitter,Flipkart,neutral,
+90161450-5ff8-46f9-b003-35ad5230d12a,I think Zomato changed their user interface today.,instagram,Zomato,neutral,
+0821fc01-a755-488c-918c-8d9157ed06a3,Trying out Amazon for the first time this week.,instagram,Amazon,neutral,
+a53875f2-1904-4347-a813-2c83fa8da840,My billing invoice from PhonePe has duplicate charges and incorrect tax.,facebook,PhonePe,negative,billing_issues
+7afd4631-0a1a-484e-a5ec-6b76a1660ffe,Amazon is the absolute best! Delivery was super quick. https://example.com/xyz,instagram,Amazon,positive,
+2c2e7595-8c09-4ff8-b696-7bff56c4f20b,Where is my money @Amazon? Refund not processed after return #scam,reddit,Amazon,negative,refund_problems
+734991af-6391-499c-bcbe-3f9ec041e87d,Does anyone know how to change payment method on Swiggy?,facebook,Swiggy,neutral,
+bf7632ae-4a43-4a5e-afe5-f6b852c6da3f,App freezes every time I open the search tab on PhonePe.,instagram,PhonePe,negative,app_bugs
+e872d90a-0570-4ba1-aade-3874f432c1c0,Support representative closed my ticket without resolving anything on Swiggy.,facebook,Swiggy,negative,customer_service
+79fa58b7-ecc0-4d22-96a2-5d9f857ef2ef,@Amazon please check your direct messages regarding my ticket.,reddit,Amazon,neutral,
+a7aacbd3-e6f4-4913-86ac-524666727231,"Great delivery by @Flipkart, loved it! Super fast and reliable. #satisfied",facebook,Flipkart,positive,
+10d485ab-dae7-43ed-b029-df6ae6f67362,Not what I expected from Amazon. Looks fake and cheap.,twitter,Amazon,negative,product_quality
+197170a8-83df-4127-bc4f-32770ef74bf4,Using Swiggy makes my daily routine so much easier and pleasant.,reddit,Swiggy,positive,
+1de8635e-0abf-4537-9806-ec3ad5ceb8ca,Hidden fees and unauthorized charges on Paytm? Disgusting practice.,reddit,Paytm,negative,billing_issues
+6a38fe4e-b95b-42e1-889d-7ffec5cf0cb1,"Returned the order 10 days ago, still no sign of refund from Paytm.",facebook,Paytm,negative,refund_problems
+0cc8df2c-4a92-44ab-b489-7b2c85d6ba5f,Seamless payment experience on Amazon. Really happy with the new update.,twitter,Amazon,positive,
+a31b4e99-da1e-48a6-992f-39dd43d77698,Using Amazon makes my daily routine so much easier and pleasant.,twitter,Amazon,positive,
+f3778ba0-5658-4a54-a212-05b9ae38cc3e,Terrible quality from Zomato. Defective product right out of the box.,facebook,Zomato,negative,product_quality
+f7796fca-158a-44b5-be5e-56888502b3cf,love using phonepe! always reliable and fast. 💯,instagram,PhonePe,positive,
+b7f41c98-b0f8-467a-9de0-7302982d922f,Zomato website is completely broken on checkout page.,reddit,Zomato,negative,app_bugs
+2e3a9084-e3be-4d9d-947e-1dbfd97c8997,App freezes every time I open the search tab on PhonePe.,instagram,PhonePe,negative,app_bugs
+863c627c-582d-4d32-86c4-6f30f254863b,Why is it impossible to get help from a representative at Zomato?,facebook,Zomato,negative,customer_service
+480889be-baf9-427d-a7ee-d28924d5527e,What are good alternative platforms to Swiggy?,reddit,Swiggy,neutral,
+db0e6b42-628e-4b5c-9acd-ee9a2d4ae804,What are good alternative platforms to Flipkart?,facebook,Flipkart,neutral,
+0c8e6cee-5e70-4fb3-9f34-9a1a5891142d,Waited 4 hours for my food delivery from @Zomato. Disgraceful delay.,facebook,Zomato,negative,delivery_issues
+d0b4d7d7-cdbf-4305-b6b3-59437eb42bae,Thank you Amazon for the quick resolution and courteous team 😊,facebook,Amazon,positive,
+bb6e7426-1ce9-4f8b-8652-0332663c4386,Everything arrived in perfect condition. Thank you @Flipkart!,reddit,Flipkart,positive,
+6398c303-68c6-407e-bd5e-f53823dbb3e3,What are good alternative platforms to PhonePe?,facebook,PhonePe,neutral,
+9819d7f6-642c-4afd-bb8d-3423b0cf12dc,Absolutely fantastic service and prompt support from Flipkart today.,twitter,Flipkart,positive,
+16060fde-e560-4102-af4a-acf36b229b44,Just comparing prices between Zomato and other apps.,facebook,Zomato,neutral,
+25b330a6-ee79-4995-bf57-654159b0d776,Absolutely fantastic service and prompt support from Amazon today.,twitter,Amazon,positive,
+98d2582a-a14a-4843-96fb-6b710f8e4d9a,"best platform ever, @zomato you guys rock!!1! five stars!!1! ✨",twitter,Zomato,positive,
+5313b425-3db0-4c59-89dc-ee674e1afd61,Seamless payment experience on Zomato. Really happy with the new update.,facebook,Zomato,positive,
+212d1bed-08aa-4111-814a-453e96bfd954,The item I received from Swiggy is broken and counterfeit.,twitter,Swiggy,negative,product_quality
+45e8b98a-3839-4952-a96c-7052b8b55079,Notice: Flipkart scheduled maintenance tonight at midnight.,instagram,Flipkart,neutral,
+92638ff7-5b59-4715-abc1-810779e90aa1,Why did my subscription for Amazon auto-renew after I cancelled?,instagram,Amazon,negative,billing_issues
+43101daa-5b34-4b80-b162-1be183f83a73,Delicious food and timely delivery by Paytm. Will order again!,twitter,Paytm,positive,
+dcb5f0c9-ed31-44ca-b651-79efc1231400,Absolutely fantastic service and prompt support from Swiggy today.,facebook,Swiggy,positive,
+7dbefa6d-876a-4568-9920-8675d5236975,Why is it impossible to get help from a representative at PhonePe?,twitter,PhonePe,negative,customer_service
+6ee48836-545f-461f-8299-e12e6a4619f6,Never got my delivery from @Paytm. Worst service ever.,instagram,Paytm,negative,delivery_issues
+1604f82c-fc5d-4015-82b2-18227db47c5b,Everything arrived in perfect condition. Thank you @Swiggy!!1!,twitter,Swiggy,positive,
+e7e42f29-1f9c-458c-98b0-4a59a308ae49,Pleasantly surprised by how quickly Paytm handled my inquiry.,reddit,Paytm,positive,
+670edf27-6bea-4fa3-8561-df78c760f880,Pleasantly surprised by how quickly Zomato handled my inquiry.,twitter,Zomato,positive,
+de2cdf38-ab61-48ba-9808-cce8c57fec6c,Support representative closed my ticket without resolving anything on Amazon.,twitter,Amazon,negative,customer_service
+78e8bf8d-7a80-4538-8702-f66693c93a68,Super impressed with @Zomato! The driver was polite and order arrived early.,instagram,Zomato,positive,
