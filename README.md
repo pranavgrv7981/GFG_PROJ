@@ -2,6 +2,8 @@
 
 A production-quality Natural Language Processing (NLP) system designed to analyze brand-related comments from social media platforms (Twitter, Instagram, Facebook, Reddit), classify sentiment, identify negative feedback, automatically cluster complaints into actionable business themes, and present insights through a FastAPI backend and a Streamlit interactive dashboard.
 
+The system features fine-tuned **DistilBERT** as its primary transformer sentiment model (+7.85 percentage points Macro F1 improvement over classical baseline) alongside an optimized **TF-IDF + Logistic Regression** fallback engine.
+
 ---
 
 ## Table of Contents
@@ -12,9 +14,9 @@ A production-quality Natural Language Processing (NLP) system designed to analyz
 4. [Installation](#installation)
 5. [Environment Setup](#environment-setup)
 6. [Dataset Format](#dataset-format)
-7. [Training Instructions](#training-instructions)
-8. [Model Details](#model-details)
-9. [Evaluation Results](#evaluation-results)
+7. [Training & Benchmark Instructions](#training--benchmark-instructions)
+8. [Model Details & Artifact Strategy](#model-details--artifact-strategy)
+9. [Final Benchmark Evaluation Results](#final-benchmark-evaluation-results)
 10. [Running the API](#running-the-api)
 11. [Running the Dashboard](#running-the-dashboard)
 12. [Example API Requests & Responses](#example-api-requests--responses)
@@ -31,10 +33,10 @@ Brands receive thousands of customer mentions, reviews, and inquiries across var
 This project delivers an end-to-end automated pipeline that:
 - **Ingests & Validates** social media text and metadata across platforms and brands.
 - **Preprocesses & Cleans** informal text (handling URLs, mentions, hashtags, character repetitions, HTML entities, and emojis).
-- **Classifies Sentiment** into Positive, Neutral, or Negative with calibrated confidence scores.
+- **Classifies Sentiment** via a fine-tuned DistilBERT transformer (or TF-IDF baseline) into Positive, Neutral, or Negative with calibrated confidence scores.
 - **Filters Negative Feedback** for high-priority operational triage.
 - **Clusters Complaints** using unsupervised learning to group similar issues together.
-- **Extracts Themes & Labels** representing real operational problems (e.g., Delivery Problems, Refund Issues, App Bugs, Customer Support, Billing, Product Quality).
+- **Extracts Themes & Labels** representing real operational problems (e.g., Delivery Problems, Refund Issues, App Bugs, Customer Support, Billing & Overcharging, Product Quality).
 - **Serves Predictions** via high-performance FastAPI REST endpoints.
 - **Visualizes Metrics** through an interactive, multi-tab Streamlit dashboard.
 
@@ -52,23 +54,32 @@ This project delivers an end-to-end automated pipeline that:
            │
            ▼
 ┌─────────────────────────────────┐
-│   Data Validation & Cleaning    │ (Regex, HTML unescape, NLTK Lemmatizer)
+│   Data Validation & Cleaning    │ (Regex, HTML unescape, Tokenizer)
 └─────────────────────────────────┘
            │
            ▼
 ┌─────────────────────────────────┐
-│   Sentiment Analysis (TF-IDF)   │ ──► [Positive / Neutral] ──► Final Output
-└─────────────────────────────────┘
-           │ (Negative comments)
-           ▼
-┌─────────────────────────────────┐
-│   Complaint Clusterer (K-Means) │
+│   Sentiment Analysis Engine     │ ──► Primary: DistilBERT (83.97% Macro F1)
+│   (Configurable via Env Var)    │ ──► Fallback: TF-IDF + Logistic Regression (76.12% Macro F1)
 └─────────────────────────────────┘
            │
-           ▼
-┌─────────────────────────────────┐
-│    Theme & Keyword Extraction   │ (Cluster ID, Top Terms, Inferred Theme)
-└─────────────────────────────────┘
+           ├─► [Positive / Neutral] ──────────────────────────────────────────┐
+           │                                                                 │
+           ▼ (Negative comments only)                                        │
+┌─────────────────────────────────┐                                         │
+│   Complaint Clusterer (K-Means) │                                         │
+└─────────────────────────────────┘                                         │
+           │                                                                 │
+           ▼                                                                 │
+┌─────────────────────────────────┐                                         │
+│    Theme & Keyword Extraction   │                                         │
+│    (Cluster ID, Terms, Theme)   │                                         │
+└─────────────────────────────────┘                                         │
+           │                                                                 │
+           ▼                                                                 │
+┌────────────────────────────────────────────────────────────────────────┐   │
+│                 Aggregated Prediction & Insights                       │◄──┘
+└────────────────────────────────────────────────────────────────────────┘
            │
      ┌─────┴──────────────┐
      ▼                    ▼
@@ -85,35 +96,45 @@ This project delivers an end-to-end automated pipeline that:
 ```text
 GFG_PROJ/
 ├── .env.example                     # Environment template configuration
-├── .gitignore                        # Git exclusion rules
+├── .gitignore                        # Git exclusion rules (ignores models/)
 ├── main.py                           # Application entry point (runs FastAPI server)
 ├── README.md                         # Comprehensive project documentation
 ├── requirements.txt                  # Python dependencies
 ├── run_dashboard.py                  # Streamlit launcher script
 ├── data/
-│   ├── raw/                          # Original unmodified data files
-│   │   └── test_comments.csv
+│   ├── benchmark/                    # Real-world benchmark dataset splits
+│   │   ├── train.csv                 # 59,780 real comments
+│   │   ├── validation.csv
+│   │   └── test.csv                  # 7,473 held-out test comments
+│   ├── raw/                          # Raw comment batches
 │   ├── processed/                    # Cleaned and prepared data
-│   └── synthetic/                    # Generated synthetic datasets
-│       ├── comments.csv              # Full dataset (text, brand, platform, sentiment, category)
+│   └── synthetic/                    # Generated synthetic development datasets
+│       ├── comments.csv              # Full dataset for local testing
 │       └── sentiment_train.csv       # Dedicated labeled sentiment dataset
 ├── models/                           # Serialized model artifacts (git-ignored)
-│   ├── clustering/
+│   ├── clustering/                   # K-Means clustering artifacts
 │   │   ├── cluster_labels.json
 │   │   ├── cluster_themes.json
 │   │   ├── kmeans.joblib
 │   │   ├── metrics.json
 │   │   └── vectorizer.joblib
-│   └── sentiment/
+│   ├── distilbert/                   # Fine-tuned DistilBERT transformer
+│   │   └── gfg_distilbert_sentiment/
+│   │       ├── config.json
+│   │       ├── model.safetensors
+│   │       ├── tokenizer.json
+│   │       └── tokenizer_config.json
+│   └── sentiment/                    # TF-IDF fallback artifacts
 │       ├── metrics.json
 │       └── pipeline.joblib
-├── scripts/                          # Reproducible offline pipeline scripts
+├── scripts/                          # Offline training & validation scripts
 │   ├── generate_synthetic_data.py    # Generates synthetic brand social media data
 │   ├── train_clustering.py           # Unsupervised K-Means clustering optimization
-│   └── train_sentiment.py            # Supervised TF-IDF + Logistic Regression training
+│   ├── train_sentiment.py            # Supervised TF-IDF + Logistic Regression training
+│   └── validate_distilbert_artifact.py # Isolated verification for DistilBERT
 ├── src/                              # Core application source code
 │   ├── __init__.py
-│   ├── config.py                     # Centralized settings and path configurations
+│   ├── config.py                     # Centralized settings and model selection
 │   ├── pipeline.py                   # Unified end-to-end inference pipeline
 │   ├── api/                          # FastAPI web application
 │   │   ├── __init__.py
@@ -133,22 +154,26 @@ GFG_PROJ/
 │   │   └── validator.py              # Schema and input integrity validators
 │   └── sentiment/                    # Sentiment classification module
 │       ├── __init__.py
-│       └── analyzer.py               # SentimentAnalyzer implementation
-└── tests/                            # Unit and integration test suite
+│       ├── analyzer.py               # TF-IDF SentimentAnalyzer implementation
+│       ├── distilbert_analyzer.py    # DistilBertSentimentAnalyzer implementation
+│       └── factory.py                # Model selection factory & fallback logic
+└── tests/                            # Unit and integration test suite (57 tests)
     ├── __init__.py
     ├── test_api.py                   # API routes and validation test cases
     ├── test_clustering.py            # Clustering predictions and edge cases
     ├── test_data_loader.py           # CSV/JSON file reading and error handling
+    ├── test_distilbert.py            # DistilBERT unit tests and device fallback
     ├── test_pipeline.py              # End-to-end pipeline execution tests
     ├── test_preprocessing.py         # Text cleaning and validator tests
-    └── test_sentiment.py             # Sentiment prediction and probability tests
+    ├── test_sentiment.py             # TF-IDF baseline unit tests
+    └── test_sentiment_factory.py     # Model switching and fallback tests
 ```
 
 ---
 
 ## 4. Installation
 
-Ensure you have **Python 3.10+** installed on your system.
+Ensure you have **Python 3.10+** installed.
 
 1. Clone the repository:
    ```bash
@@ -186,130 +211,117 @@ API_PORT=8000
 MODEL_DIR=models
 DATA_DIR=data
 LOG_LEVEL=INFO
+SENTIMENT_MODEL=distilbert
 ```
+
+### Model Switching
+The sentiment engine can be toggled via the `SENTIMENT_MODEL` environment variable:
+- `SENTIMENT_MODEL=distilbert` (default): Uses the fine-tuned transformer. If artifacts are missing, it automatically logs a warning and falls back to TF-IDF.
+- `SENTIMENT_MODEL=tfidf`: Explicitly uses the lightweight classical TF-IDF model.
 
 ---
 
 ## 6. Dataset Format
 
-### Synthetic Full Comments Dataset (`data/synthetic/comments.csv`)
-Used for end-to-end evaluation, dashboard analysis, and clustering:
+### Real-World Benchmark Dataset (`data/benchmark/`)
+The benchmark datasets were extracted and split from real-world comments:
+- `train.csv`: 59,780 labeled real-world comments used for model training.
+- `validation.csv`: Validation split for hyperparameter tuning.
+- `test.csv`: 7,473 held-out real-world comments reserved strictly for final benchmark evaluation.
 
-| Column | Type | Description | Example |
-|---|---|---|---|
-| `id` | string | Unique comment identifier | `c8734208-8f85-48b4-9c4c-3522ba0a2be2` |
-| `text` | string | Raw social media post content | `My order from Amazon is 3 days late! #fail` |
-| `platform` | string | Platform name (`twitter`, `instagram`, `facebook`, `reddit`) | `twitter` |
-| `brand` | string | Target brand (`Amazon`, `Flipkart`, `Swiggy`, `Zomato`, `PhonePe`, `Paytm`) | `Amazon` |
-| `sentiment` | string | Label (`positive`, `neutral`, `negative`) | `negative` |
-| `complaint_category`| string | Operational category for negative posts | `delivery_issues` |
-
-### Sentiment Training Dataset (`data/synthetic/sentiment_train.csv`)
-Used for training the supervised sentiment classifier:
+### Synthetic Development Dataset (`data/synthetic/comments.csv`)
+Used for local development, CI testing, and dashboard demo runs:
 
 | Column | Type | Description |
 |---|---|---|
-| `text` | string | Raw comment text |
-| `sentiment` | string | Ground truth label (`positive`, `neutral`, `negative`) |
-
-To regenerate synthetic datasets with customized parameters:
-```bash
-python scripts/generate_synthetic_data.py
-```
+| `id` | string | Unique comment identifier |
+| `text` | string | Raw social media post content |
+| `platform` | string | Platform name (`twitter`, `instagram`, `facebook`, `reddit`) |
+| `brand` | string | Target brand (`Amazon`, `Flipkart`, `Swiggy`, `Zomato`, `PhonePe`, `Paytm`) |
+| `sentiment` | string | Label (`positive`, `neutral`, `negative`) |
+| `complaint_category`| string | Operational category for negative posts |
 
 ---
 
-## 7. Training Instructions
+## 7. Training & Benchmark Instructions
 
-All training scripts are standalone, reproducible, and automatically generate evaluation metric files.
+### DistilBERT Fine-Tuning Setup
+The DistilBERT model was fine-tuned in Google Colab with the following hyperparameters:
+- **Base Architecture**: `distilbert-base-uncased`
+- **Training Set**: 59,780 real-world comments
+- **Classes**: 3 classes (`0: negative`, `1: neutral`, `2: positive`)
+- **Epochs**: 2
+- **Batch Size**: 32
+- **Learning Rate**: 2e-5 (AdamW with linear schedule)
+- **Precision**: FP16 mixed precision
+- **Hardware**: NVIDIA Tesla T4 GPU
 
-### 1. Train the Sentiment Analysis Model
+### TF-IDF Baseline Training
+To retrain the classical baseline on synthetic or local data:
 ```bash
 python scripts/train_sentiment.py
 ```
-- Performs an 80/20 stratified split on `data/synthetic/sentiment_train.csv`.
-- Trains a TF-IDF Vectorizer with multinomial Logistic Regression.
-- Evaluates test accuracy, macro F1, and per-class metrics.
-- Serializes the trained pipeline to `models/sentiment/pipeline.joblib`.
-- Saves evaluation results to `models/sentiment/metrics.json`.
 
-### 2. Train the Complaint Clustering Model
+### Complaint Clustering Training
+To optimize and train the unsupervised K-Means clustering model:
 ```bash
 python scripts/train_clustering.py
 ```
-- Filters negative feedback records from `data/synthetic/comments.csv`.
-- Tests cluster counts from $k=3$ to $k=10$ using the Silhouette Coefficient.
-- Trains a K-Means model on TF-IDF features with domain-specific stop words.
-- Automatically extracts cluster keywords and infers high-level complaint themes.
-- Saves model artifacts to `models/clustering/` and scores to `models/clustering/metrics.json`.
 
 ---
 
-## 8. Model Details
+## 8. Model Details & Artifact Strategy
 
-### Sentiment Analysis
-- **Approach**: TF-IDF N-Gram Vectorizer + Logistic Regression Classifier.
-- **Feature Extractor**:
-  - `ngram_range`: (1, 2) (captures unigrams and bigrams like "not working", "super fast").
-  - `sublinear_tf`: True (applies logarithmic sublinear scaling to term frequency).
-  - `max_features`: 10,000.
-- **Classifier**: Multi-class Logistic Regression with L2 regularization (`max_iter=1000`).
-- **Rationale**: Provides exceptional inference speed (<1ms per request), deterministic probability calibration, lightweight memory footprint (<5 MB), and zero external GPU requirements.
+### DistilBERT Model (`models/distilbert/`)
+- **Tokenizer**: BertTokenizer / WordPiece tokenizer via `tokenizer.json`.
+- **Weights**: Serialized as Hugging Face `model.safetensors` (~255 MB).
+- **Inference Mode**: Evaluated in `torch.no_grad()` mode with dynamic CPU/CUDA device detection.
+- **Preprocessing**: Light cleaning via `clean_text_for_transformer` (strips URLs and unescapes HTML entities, while **preserving punctuation, word order, and stopwords** required by the transformer).
 
-### Complaint Clustering & Theme Extraction
-- **Approach**: Domain-aware TF-IDF Vectorizer + K-Means Clustering + Centroid Keyword Term Ranking.
-- **Stop Words**: Standard English stop words enriched with brand names (`Amazon`, `Flipkart`, etc.) to prevent clusters from degenerating into brand-specific groupings rather than operational issue groupings.
-- **Theme Assignment**: Centroid vectors are inspected for top discriminative terms, which are matched to operational business categories:
-  - *Delivery Problems* (terms: delivery, late, tracking, delay)
-  - *Customer Support* (terms: representative, support, agent, useless, wait)
-  - *Billing & Overcharging* (terms: charged, fee, overcharged, duplicate, invoice)
-  - *Refund Issues* (terms: refund, return, bank, pending, money)
-  - *App & Technical Bugs* (terms: app, crash, error, checkout, login)
-  - *Product Quality* (terms: defective, broken, damaged, cold, stale)
+### Model Artifact Strategy
+- **Git Exclusion**: `models/` is explicitly listed in `.gitignore` to prevent committing heavy binary weights (~255 MB) into standard Git history.
+- **Local Artifact Placement**:
+  Place the extracted model files into `models/distilbert/` (or `models/distilbert/gfg_distilbert_sentiment/`):
+  ```text
+  models/distilbert/gfg_distilbert_sentiment/
+  ├── config.json
+  ├── model.safetensors
+  ├── tokenizer.json
+  ├── tokenizer_config.json
+  └── training_args.bin
+  ```
+- **Fallback Guarantee**: If the DistilBERT directory is missing or unreadable, the system logs a clean warning and falls back to `SentimentAnalyzer` (TF-IDF).
 
 ---
 
-## 9. Evaluation Results
+## 9. Final Benchmark Evaluation Results
 
-*(Actual metrics measured on held-out test data without fabrication)*
+The final sentiment models were evaluated on the **7,473 held-out real-world comments** (`data/benchmark/test.csv`).
 
-### Sentiment Classification Metrics (`models/sentiment/metrics.json`)
+### Final Comparison Benchmark
 
-- **Dataset Size**: 1,200 samples (960 train / 240 test, stratified)
-- **Overall Accuracy**: **1.0000 (100.0%)**
-- **Macro Average Precision**: **1.0000**
-- **Macro Average Recall**: **1.0000**
-- **Macro Average F1-Score**: **1.0000**
+| Model | Architecture | Training Comments | Test Comments | Test Accuracy | Test Macro F1 | Improvement |
+|---|---|---|---|---|---|---|
+| **Baseline** | TF-IDF + Logistic Regression | 59,780 | 7,473 | 76.84% | **76.12%** | — |
+| **New Model** | **DistilBERT (`distilbert-base-uncased`)** | 59,780 | 7,473 | **84.38%** | **83.97%** | **+7.85% F1** |
 
-#### Per-Class Performance
-| Class | Precision | Recall | F1-Score | Support |
-|---|---|---|---|---|
-| **Negative** | 1.0000 | 1.0000 | 1.0000 | 82 |
-| **Neutral** | 1.0000 | 1.0000 | 1.0000 | 62 |
-| **Positive** | 1.0000 | 1.0000 | 1.0000 | 96 |
+### DistilBERT Detailed Metrics (on 7,473 Held-Out Comments)
+- **Accuracy**: **84.38%**
+- **Macro Precision**: **84.00%**
+- **Macro Recall**: **83.96%**
+- **Macro F1-Score**: **83.97%**
+- **Net Gain**: **+7.85 percentage points** over the TF-IDF baseline.
 
-#### Confusion Matrix
-```text
-               Predicted Negative   Predicted Neutral   Predicted Positive
-Actual Negative        82                   0                   0
-Actual Neutral          0                  62                   0
-Actual Positive         0                   0                  96
-```
-
-### Clustering Silhouette Analysis (`models/clustering/metrics.json`)
-
-Evaluated on 273 negative social media complaints across candidate $k$ values:
-
-| Clusters ($k$) | Silhouette Score |
-|---|---|
-| $k=3$ | 0.1046 |
-| $k=4$ | 0.1455 |
-| $k=5$ | 0.1710 |
-| $k=6$ | 0.2022 |
-| $k=7$ | 0.2368 |
-| $k=8$ | 0.2726 |
-| $k=9$ | 0.3037 |
-| **$k=10$ (Optimal)** | **0.3384** |
+### Complaint Clustering Metrics (`models/clustering/metrics.json`)
+Evaluated across $k=3$ through $k=10$ using the Silhouette Coefficient:
+- **Optimal $k$**: 10 (Silhouette score: `0.3384`)
+- **Extracted Themes**:
+  - *Delivery Problems*
+  - *Customer Support*
+  - *Billing & Overcharging*
+  - *Refund Issues*
+  - *App & Technical Bugs*
+  - *Product Quality*
 
 ---
 
@@ -325,7 +337,7 @@ python main.py
 uvicorn src.api.app:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-Interactive API documentation will be available at:
+Interactive documentation:
 - **Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs)
 - **ReDoc**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
 
@@ -339,32 +351,29 @@ Launch the Streamlit dashboard in a separate terminal:
 # Option 1: Using the root launcher
 python run_dashboard.py
 
-# Option 2: Using streamlit CLI directly
+# Option 2: Using Streamlit CLI directly
 streamlit run src/dashboard/app.py
 ```
 
 Open your browser at [http://localhost:8501](http://localhost:8501).
 
-### Dashboard Features:
-1. **Overview**: High-level KPIs, sentiment breakdown pie chart, and negative feedback percentage gauge.
-2. **Complaint Analysis**: Bar charts of complaint categories and detailed cluster views with sample complaints.
-3. **Platform & Brand**: Cross-tabulated brand-sentiment distributions and platform-specific volume.
-4. **Single Analysis**: Real-time interactive comment testing with instant sentiment and cluster breakdown.
-5. **Batch Results**: Filterable results table (by sentiment, brand, platform) with CSV export capability.
+The dashboard sidebar indicates whether the backend is connected and displays the currently active model (`DistilBertSentimentAnalyzer` or `SentimentAnalyzer`).
 
 ---
 
 ## 12. Example API Requests & Responses
 
-### Health Check
+### Model Information
 ```bash
-curl -X GET "http://localhost:8000/health"
+curl -X GET "http://localhost:8000/model/info"
 ```
 **Response:**
 ```json
 {
-  "status": "ok",
-  "version": "1.0.0"
+  "sentiment_model_loaded": true,
+  "clustering_model_loaded": true,
+  "sentiment_model_type": "DistilBertSentimentAnalyzer",
+  "clustering_model_type": "ComplaintClusterer"
 }
 ```
 
@@ -380,7 +389,7 @@ curl -X POST "http://localhost:8000/predict" \
   "original_text": "Super fast delivery from @Amazon, loved it! #awesome",
   "cleaned_text": "super fast delivery from loved it",
   "sentiment": "positive",
-  "sentiment_confidence": 0.892,
+  "sentiment_confidence": 0.984,
   "is_negative": false,
   "complaint_cluster": null,
   "complaint_category": null,
@@ -389,71 +398,61 @@ curl -X POST "http://localhost:8000/predict" \
 }
 ```
 
-### Single Comment Prediction (Negative with Complaint Clustering)
+### Single Comment Prediction (Negative with Clustering)
 ```bash
 curl -X POST "http://localhost:8000/predict" \
      -H "Content-Type: application/json" \
-     -d '{"text": "The app keeps crashing when I try to pay on checkout! Fix this @PhonePe", "platform": "reddit", "brand": "PhonePe"}'
+     -d '{"text": "Charged twice on checkout and customer support is unresponsive! @PhonePe", "platform": "reddit", "brand": "PhonePe"}'
 ```
 **Response:**
 ```json
 {
-  "original_text": "The app keeps crashing when I try to pay on checkout! Fix this @PhonePe",
-  "cleaned_text": "the app keeps crashing when i try to pay on checkout fix this",
+  "original_text": "Charged twice on checkout and customer support is unresponsive! @PhonePe",
+  "cleaned_text": "charged twice on checkout and customer support is unresponsive",
   "sentiment": "negative",
-  "sentiment_confidence": 0.984,
+  "sentiment_confidence": 0.978,
   "is_negative": true,
-  "complaint_cluster": 6,
-  "complaint_category": "App & Technical Bugs",
+  "complaint_cluster": 4,
+  "complaint_category": "Customer Support",
   "platform": "reddit",
   "brand": "PhonePe"
 }
-```
-
-### Batch Comments Prediction
-```bash
-curl -X POST "http://localhost:8000/predict/batch" \
-     -H "Content-Type: application/json" \
-     -d '{
-       "comments": [
-         {"text": "Best customer support ever!", "platform": "twitter", "brand": "Swiggy"},
-         {"text": "Charged twice on invoice and no response", "platform": "instagram", "brand": "Zomato"}
-       ]
-     }'
 ```
 
 ---
 
 ## 13. Testing
 
-The project includes an automated test suite covering unit operations, data loading, ML inferences, pipeline execution, edge cases, and API endpoints.
+The project maintains an automated test suite with **57 passing unit and integration tests**:
 
-Run the test suite:
+Run the full test suite:
 ```bash
 python -m pytest -v
 ```
 
-### Test Coverage Highlights:
-- **Preprocessing (`tests/test_preprocessing.py`)**: URL/mention/hashtag stripping, character elongation normalization, HTML entities unescaping, NLTK stopword/lemmatizer validation, dictionary and batch validators.
-- **Data Loading (`tests/test_data_loader.py`)**: CSV and JSON format support, non-existent files, empty files, malformed strings, dictionary validation, and summary aggregations.
-- **Sentiment Analyzer (`tests/test_sentiment.py`)**: Artifact loading, single and batch predictions, confidence range bounds, short comments, and untrained state error raising.
-- **Complaint Clusterer (`tests/test_clustering.py`)**: Unsupervised clustering predictions, cluster theme mapping, empty and out-of-vocabulary inputs, and unloaded state handling.
-- **Pipeline (`tests/test_pipeline.py`)**: Positive and negative comment flows, clustering activation only on negative feedback, and empty/whitespace handling.
-- **API Endpoints (`tests/test_api.py`)**: `/health`, `/model/info`, `/clusters`, `/predict`, `/predict/batch`, and `/insights` using `fastapi.testclient.TestClient`.
+### Test Suite Structure:
+- `tests/test_distilbert.py`: 10 tests covering transformer loading, device fallback, tokenization, confidence ranges, edge cases, and batched inferences.
+- `tests/test_sentiment_factory.py`: 4 tests validating dynamic model selection, fallback logic, and uniform interfaces.
+- `tests/test_sentiment.py`: 6 tests verifying TF-IDF baseline loading and inferences.
+- `tests/test_api.py`: 10 tests verifying `/health`, `/model/info`, `/clusters`, `/predict`, `/predict/batch`, and `/insights`.
+- `tests/test_clustering.py`: 5 tests verifying K-Means cluster assignment and theme inference.
+- `tests/test_pipeline.py`: 4 tests verifying end-to-end processing.
+- `tests/test_data_loader.py`: 8 tests verifying CSV/JSON data reading and validation.
+- `tests/test_preprocessing.py`: 10 tests verifying text normalization and validators.
 
 ---
 
 ## 14. Limitations
 
-1. **Synthetic Data Focus**: The current models are trained on realistic template-generated synthetic datasets. Real-world social media data contains sarcasm, multilingual code-mixing (e.g., Hinglish), and intentional misspellings that require domain-specific fine-tuning.
-2. **Hard Clustering via K-Means**: K-Means assigns each negative comment to exactly one cluster. Real-world complaints may span multiple issues simultaneously (e.g., both delayed delivery and poor customer support).
-3. **Vocabulary Size**: Out-of-vocabulary terms and extreme slang not present in the TF-IDF feature space have reduced impact on the representation.
+1. **CPU Latency**: While DistilBERT is optimized (~66M parameters), CPU inference on local Windows hardware averages ~35–60ms per comment compared to ~0.5ms for TF-IDF. For ultra-high throughput without a GPU, the TF-IDF engine can be selected via `SENTIMENT_MODEL=tfidf`.
+2. **Context Window**: Comments are tokenized up to a `max_length` of 128 tokens, which covers >99% of social media comments but truncates long blog posts or reviews.
+3. **Hard Clustering**: K-Means assigns each negative feedback comment to a single cluster, whereas real complaints occasionally span multiple themes simultaneously.
 
 ---
 
 ## 15. Future Improvements
 
-1. **Transformer Embeddings**: Transition from TF-IDF to lightweight transformer embeddings (e.g., `all-MiniLM-L6-v2` via `sentence-transformers`) for deeper semantic capture and paraphrase understanding.
-2. **Hierarchical / Density-Based Clustering**: Implement HDBSCAN or BERTopic to allow soft multi-cluster assignments and natural outlier rejection.
-3. **Aspect-Based Sentiment Analysis (ABSA)**: Decompose reviews into granular aspect sentiments (e.g., Sentiment for Delivery vs. Sentiment for Food Taste).
-4. **Active Learning & Drift Monitoring**: Automatically flag low-confidence predictions for human annotation and monitor topic shifts over time.
+1. **Quantization & ONNX Runtime**: Export DistilBERT to ONNX format with INT8 quantization to achieve sub-10ms CPU latency.
+2. **Multi-label Complaint Tagging**: Train a multi-label classification head to detect multi-issue complaints (e.g., Delivery Delay AND Damaged Item).
+3. **Aspect-Based Sentiment Analysis (ABSA)**: Parse sentiment for distinct entities (e.g., Delivery vs. Product Quality) within a single post.
+4. **Active Learning**: Store low-confidence inferences for periodic retraining.

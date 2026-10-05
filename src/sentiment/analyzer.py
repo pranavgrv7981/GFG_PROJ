@@ -76,7 +76,7 @@ class SentimentAnalyzer:
         joblib.dump(self.pipeline, model_path)
 
     def load(self, model_dir=None):
-        load_dir = model_dir or self.model_dir
+        load_dir = model_dir or self.model_dir or 'models/sentiment'
         model_path = os.path.join(load_dir, 'pipeline.joblib')
         
         if os.path.exists(model_path):

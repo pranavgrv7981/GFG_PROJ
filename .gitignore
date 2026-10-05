@@ -12,6 +12,8 @@ models/
 
 # Data
 data/processed/
+data/raw/
+data/benchmark/
 
 # Python
 __pycache__/

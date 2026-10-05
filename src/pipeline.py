@@ -1,6 +1,6 @@
 from src.preprocessing.cleaner import clean_text, preprocess_for_ml
 from src.preprocessing.validator import validate_comment
-from src.sentiment.analyzer import SentimentAnalyzer
+from src.sentiment import get_sentiment_analyzer
 from src.clustering.clusterer import ComplaintClusterer
 
 
@@ -12,7 +12,7 @@ class Pipeline:
     @property
     def sentiment_analyzer(self):
         if self._sentiment_analyzer is None:
-            self._sentiment_analyzer = SentimentAnalyzer()
+            self._sentiment_analyzer = get_sentiment_analyzer()
         return self._sentiment_analyzer
 
     @property

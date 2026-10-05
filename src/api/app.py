@@ -5,7 +5,7 @@ from src.api.schemas import (
     InsightsSummary, ModelInfo, HealthResponse
 )
 from src.preprocessing.cleaner import clean_text
-from src.sentiment.analyzer import SentimentAnalyzer
+from src.sentiment import get_sentiment_analyzer
 from src.clustering.clusterer import ComplaintClusterer
 from typing import Dict, List, Any
 
@@ -29,7 +29,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-sentiment_analyzer = SentimentAnalyzer()
+sentiment_analyzer = get_sentiment_analyzer()
 complaint_clusterer = ComplaintClusterer()
 
 session_data: List[Dict[str, Any]] = []
@@ -221,9 +221,10 @@ async def get_clusters():
 
 @app.get("/model/info", response_model=ModelInfo)
 async def get_model_info():
+    model_type = sentiment_analyzer.__class__.__name__
     return ModelInfo(
         sentiment_model_loaded=sentiment_analyzer.is_loaded(),
         clustering_model_loaded=complaint_clusterer.is_loaded(),
-        sentiment_model_type="SentimentAnalyzer",
+        sentiment_model_type=model_type,
         clustering_model_type="ComplaintClusterer"
     )

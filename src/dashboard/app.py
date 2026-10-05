@@ -54,6 +54,15 @@ def fetch_clusters():
     except:
         return []
 
+def fetch_model_info():
+    try:
+        response = requests.get(f"{API_URL}/model/info", timeout=2)
+        if response.status_code == 200:
+            return response.json()
+    except Exception:
+        pass
+    return None
+
 if "batch_results" not in st.session_state:
     st.session_state.batch_results = pd.DataFrame()
 
@@ -62,6 +71,10 @@ with st.sidebar:
     api_online = check_api_status()
     if api_online:
         st.success("API: Connected")
+        model_info = fetch_model_info()
+        if model_info:
+            model_name = model_info.get("sentiment_model_type", "Active")
+            st.caption(f"Active Model: **{model_name}**")
     else:
         st.error("API: Disconnected")
     

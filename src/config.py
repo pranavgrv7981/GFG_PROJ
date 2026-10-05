@@ -12,6 +12,7 @@ class Settings:
     
     MODEL_DIR: str = os.getenv("MODEL_DIR", "models")
     DATA_DIR: str = os.getenv("DATA_DIR", "data")
+    SENTIMENT_MODEL: str = os.getenv("SENTIMENT_MODEL", "distilbert").lower()
     
     LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO")
     
